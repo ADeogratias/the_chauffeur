@@ -53,7 +53,7 @@ if($query->rowCount() > 0){
 }                        
 
 
-$sql = "SELECT driverid from personal_driver.transaction where bookdate > '{$currentDateTime}' OR duration < '{$currentDateTime}' ";
+$sql = "SELECT driverid from personal_driver.transaction where bookdate > '{$currentDateTime}' and duration < '{$currentDateTime}' ";
 $query = $dbh -> prepare($sql);
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
