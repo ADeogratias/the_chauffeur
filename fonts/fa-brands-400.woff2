@@ -1,0 +1,1113 @@
+<Language language="Portuguese(Portuguese)">
+    <Default>
+	<Font From="Open Sans" To="Tahoma" FailTo="Arial" />
+  </Default>
+    <Dialog ClassName="Recoverit">
+	 <Control ClassName="RecycleRemoveDesc" ControlType="11">
+      <Text><![CDATA[%1 foi removido, conecte-o ao computador e tente novamente.]]></Text>
+    </Control>
+	<Control ClassName="PauseBeforeRecover" ControlType="11">
+      <Text><![CDATA[ Por favor, pause ou pare a varredura antes de recuperar os dados.]]></Text>
+    </Control>
+	<Control ClassName="UnBitLockerDesc" ControlType="11">
+      <Text><![CDATA[O disco selecionado foi bloqueado pelo Windows BitLocker, remova o BitLocker e tente novamente.]]></Text>
+    </Control>	
+	<Control ClassName="ShowAllFiles" ControlType="11">
+      <Text><![CDATA[Mostrar todos os arquivos]]></Text>
+    </Control>	
+	<Control ClassName="OnlyDeletedFiles" ControlType="11">
+      <Text><![CDATA[Mostrar apenas arquivos apagados]]></Text>
+    </Control> 
+	 <Control ClassName="AllFilesTypes" ControlType="11">
+      <Text><![CDATA[Todos os Tipos de Arquivos]]></Text>
+    </Control>	
+	<Control ClassName="ShowDeletedFiles" ControlType="11">
+      <Text><![CDATA[Mostrar arquivos deletados]]></Text>
+    </Control>
+	<Control ClassName="MulItemSelected" ControlType="11">
+      <Text><![CDATA[%1 tipos de arquivo selecionados]]></Text>
+    </Control>	
+	<Control ClassName="RecoverRemoveHint" ControlType="11">
+      <Text><![CDATA[A recuperação de %1 arquivo(s) falhou por %2 removido..]]></Text>
+    </Control>	
+	<Control ClassName="BitLockerDesc" ControlType="11">
+      <Text><![CDATA[O disco selecionado foi bloqueado pelo Windows BitLocker, desbloqueie e tente novamente.]]></Text>
+    </Control>
+	<Control ClassName="BitLockerLink" ControlType="11">
+      <Text><![CDATA[<a href="#"><font color=#00AEE6>Como desbloquear?</font></a>]]></Text>
+    </Control>	
+	 <Control ClassName="RecoverFat32" ControlType="11">
+        <Text><![CDATA[Um único arquivo maior que 4GB não pode ser recuperado devido às limitações do sistema de arquivos FAT32, você pode recuperá-lo para outros tipos de partição.]]></Text>
+      </Control>	
+	 <Control ClassName="DateTimeOverLimit" ControlType="11">
+        <Text><![CDATA[O programa detetou que a sua conta excedeu o tempo limite, se você ainda quiser manter sua conta, por favor contate-nos.]]></Text>
+      </Control>
+	<Control ClassName="DiskFeedback" ControlType="1">
+        <Text><![CDATA[<font color=#26324B>Não é possível detectar sua unidade ou dispositivo? </font><b><a href="#"><font color=#00AEE6>Nos envie de volta.</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="lblTipText" ControlType="1">
+        <Text><![CDATA[Vamos verificar o seu ambiente de computador e anexar o arquivo de log para verificar mais este problema e corrigi-lo o mais rápido possível.]]></Text>
+      </Control>
+	  <Control ClassName="lblTipText_2" ControlType="1">
+        <Text><![CDATA[O email:]]></Text>
+      </Control>
+	  <Control ClassName="lblTipText_3" ControlType="1">
+        <Text><![CDATA[Conteúdo:]]></Text>
+      </Control>	  
+	  <Control ClassName="ContextPlan" ControlType="11">
+        <Text><![CDATA[Não é possível detectar minha unidade.]]></Text>
+      </Control>	  
+	  <Control ClassName="lblTipText_5" ControlType="1">
+        <Text><![CDATA[Anexe o arquivo de log para verificação adicional.]]></Text>
+      </Control>
+	  <Control ClassName="lblTipText_4" ControlType="1">
+        <Text><![CDATA[Obrigado pelo seu feedback para nos ajudar a melhorar o produto.]]></Text>
+      </Control>
+	   <Control ClassName="btnSubmit" ControlType="11">
+        <Text><![CDATA[Enviar]]></Text>
+      </Control>
+	 <Control ClassName ="m_free" ControlType="11">
+        <Text><![CDATA[Free]]></Text>
+      </Control>
+	  <Control ClassName ="m_Ultimate" ControlType="11">
+        <Text><![CDATA[Ultimate]]></Text>
+      </Control>
+	  <Control ClassName ="m_freeDesc" ControlType="11">
+        <Text><![CDATA[Recuperar arquivo de %1]]></Text>
+      </Control>
+	  <Control ClassName ="m_stillrecover" ControlType="11">
+        <Text><![CDATA[Você ainda pode recuperar %1 arquivos para a versão gratuita.]]></Text>
+      </Control>
+	  <Control ClassName ="m_recoverSelected" ControlType="11">
+        <Text><![CDATA[%1 arquivos selecionados agora.]]></Text>
+      </Control>
+	  <Control ClassName ="lblFreeDesc" ControlType="11">
+        <Text><![CDATA[Atualize para a versão Pro ou Ultimate para aproveitar todos os benefícios.]]></Text>
+      </Control>
+	  <Control ClassName ="lblFreeWarning" ControlType="11">
+        <Text><![CDATA[O tamanho do arquivo selecionado é maior do que o tamanho disponível.]]></Text>
+      </Control>	  
+	  <Control ClassName="m_Evalute" ControlType="11">
+        <Text><![CDATA[Avalie]]></Text>        
+      </Control>
+	  <Control ClassName="FreeHintDialogText2" ControlType="11">
+        <Text><![CDATA[Recuperação ilimitada do tamanho do arquivo]]></Text>        
+      </Control>
+	  <Control ClassName="IsAdmin" ControlType="11">
+        <Text><![CDATA[Você precisará fornecer permissão de administrador para executar este programa.]]></Text>
+      </Control>
+	  <Control ClassName="Week1" ControlType="11">
+        <Text><![CDATA[Seg]]></Text>
+      </Control>
+	  <Control ClassName="Week2" ControlType="11">
+        <Text><![CDATA[Te]]></Text>
+      </Control>
+	  <Control ClassName="Week3" ControlType="11">
+        <Text><![CDATA[Qua]]></Text>
+      </Control>
+	  <Control ClassName="Week4" ControlType="11">
+        <Text><![CDATA[Qui]]></Text>
+      </Control>
+	  <Control ClassName="Week5" ControlType="11">
+        <Text><![CDATA[Sex]]></Text>
+      </Control>
+	  <Control ClassName="Week6" ControlType="11">
+        <Text><![CDATA[Sá]]></Text>
+      </Control>
+	  <Control ClassName="Week7" ControlType="11">
+        <Text><![CDATA[Do]]></Text>
+      </Control>	  
+	  <Control ClassName="Mon1" ControlType="11">
+        <Text><![CDATA[Janeiro]]></Text>
+      </Control>
+	  <Control ClassName="Mon2" ControlType="11">
+        <Text><![CDATA[Fevereiro]]></Text>
+      </Control>
+	  <Control ClassName="Mon3" ControlType="11">
+        <Text><![CDATA[Marche]]></Text>
+      </Control>
+	  <Control ClassName="Mon4" ControlType="11">
+        <Text><![CDATA[Abril]]></Text>
+      </Control>
+	  <Control ClassName="Mon5" ControlType="11">
+        <Text><![CDATA[Possa]]></Text>
+      </Control>
+	  <Control ClassName="Mon6" ControlType="11">
+        <Text><![CDATA[Junho]]></Text>
+      </Control>
+	  <Control ClassName="Mon7" ControlType="11">
+        <Text><![CDATA[Julho]]></Text>
+      </Control>
+	  <Control ClassName="Mon8" ControlType="11">
+        <Text><![CDATA[Agosto]]></Text>
+      </Control>
+	  <Control ClassName="Mon9" ControlType="11">
+        <Text><![CDATA[Setembro]]></Text>
+      </Control>
+	  <Control ClassName="Mon10" ControlType="11">
+        <Text><![CDATA[Outubro]]></Text>
+      </Control>
+	  <Control ClassName="Mon11" ControlType="11">
+        <Text><![CDATA[Novembro]]></Text>
+      </Control>
+	  <Control ClassName="Mon12" ControlType="11">
+        <Text><![CDATA[Dezembro]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDesc" ControlType="1">
+        <Text><![CDATA[Por favor selecione uma situação de perda de dados]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDrFone" ControlType="1">
+        <Text><![CDATA[<font color=#26324B>Para recuperar dados do Android/iOS, altere para o </font><b><a href="#"><font color=#00AEE6>dr.fone</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePor" ControlType="1">
+        <Text><![CDATA[Por]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDeleteDesc" ControlType="11">
+        <Text><![CDATA[Recuperação de Arquivos Eliminados]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDeleteText1" ControlType="11">
+        <Text><![CDATA[Eliminação acidental]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDeleteText2" ControlType="11">
+        <Text><![CDATA[Eliminação por "Shift+Del"]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDeleteText3" ControlType="11">
+        <Text><![CDATA[Falhas de energia]]></Text>
+      </Control>	  
+	  <Control ClassName="PartFrameRecycleDesc" ControlType="11">
+        <Text><![CDATA[Recuperação da Reciclagem]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameRecycleText1" ControlType="11">
+        <Text><![CDATA[Reciclagem Esvaziada]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameFormatedDesc" ControlType="11">
+        <Text><![CDATA[Recuperação de Disco Formatado]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameFormatedText1" ControlType="11">
+        <Text><![CDATA[Disco rígido formatado]]></Text>
+	  </Control>	  
+	  <Control ClassName="PartFramePartitionDesc" ControlType="11">
+        <Text><![CDATA[Recuperação de Partição Eliminada]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePartitionText1" ControlType="11">
+        <Text><![CDATA[Partição eliminada]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePartitionText2" ControlType="11">
+        <Text><![CDATA[Partição oculta]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePartitionText3" ControlType="11">
+        <Text><![CDATA[Partição perdida]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePartitionText4" ControlType="11">
+        <Text><![CDATA[Partição redimensionada]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalDesc" ControlType="11">
+        <Text><![CDATA[Recuperação de Dispositivos Externos]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalText1" ControlType="11">
+        <Text><![CDATA[Recuperação de cartão de memória]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalText2" ControlType="11">
+        <Text><![CDATA[Recuperação de flash drive USB]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalText3" ControlType="11">
+        <Text><![CDATA[Recuperação de disco rígido externo]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalText4" ControlType="11">
+        <Text><![CDATA[Recuperação de outros dispositivos removíveis]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameVirusDesc" ControlType="11">
+        <Text><![CDATA[Recuperação de ataques de vírus]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameVirusText1" ControlType="11">
+        <Text><![CDATA[Recuperação de dados após ataques de vírus]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameCrashDesc" ControlType="11">
+        <Text><![CDATA[Recuperação de Dados Após Bloqueio do Sistema]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameCrashText1" ControlType="11">
+        <Text><![CDATA[Recuperação de dados após bloqueio do sistema]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameCrashText2" ControlType="11">
+        <Text><![CDATA[Recuperação de dados após falha de inicialização]]></Text>
+      </Control>
+	   <Control ClassName="PartFrameGodDesc" ControlType="11">
+        <Text><![CDATA[Recuperação Geral]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameGodText1" ControlType="11">
+        <Text><![CDATA[Funciona com todas as situações de perdas de dados]]></Text>
+      </Control>	  
+	  <Control ClassName="HintDialogDesc" ControlType="1">
+        <Text><![CDATA[A sua cópia do software não está registrada. Obtenha uma licença.]]></Text>
+      </Control>
+	  <Control ClassName="HintDialogText1" ControlType="11">
+        <Text><![CDATA[Escanear e pré-visual]]></Text>
+      </Control>
+	  <Control ClassName="HintDialogText2" ControlType="11">
+        <Text><![CDATA[Recuperar dados]]></Text>
+      </Control>
+	  <Control ClassName="HintDialogText3" ControlType="11">
+        <Text><![CDATA[Recuperar dados de sistema danificado]]></Text>
+      </Control>
+	  <Control ClassName="HintDialogText4" ControlType="11">
+        <Text><![CDATA[Suporte técnico grátis]]></Text>
+      </Control>	  
+	  <Control ClassName="m_strOther" ControlType="11">
+        <Text><![CDATA[Outros]]></Text>
+      </Control>
+	  <Control ClassName="m_strAllFileTypes" ControlType="11">
+        <Text><![CDATA[Todos os tipos de arquivos.]]></Text>
+      </Control>
+	  <Control ClassName="m_strWebfiles" ControlType="11">
+        <Text><![CDATA[Arquivos da Internet]]></Text>
+      </Control>
+	  <Control ClassName="FullDiskDesc" ControlType="1">
+        <Text><![CDATA[Por favor selecione um disco]]></Text>
+      </Control>
+	  <Control ClassName="FullDiskTitle1" ControlType="1">
+        <Text><![CDATA[Drives dos Discos Rígidos]]></Text>
+      </Control>
+	  <Control ClassName="FullDiskTitle2" ControlType="1">
+        <Text><![CDATA[Dispositivos Externos]]></Text>
+      </Control>
+	  <Control ClassName="FullDiskRefresh" ControlType="11">
+        <Text><![CDATA[Actualizar]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanLostDiskDesc" ControlType="1">
+        <Text><![CDATA[Por favor selecione uma partição]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskAnalye" ControlType="1">
+        <Text><![CDATA[A escanear partição...]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskCommon" ControlType="1">
+        <Text><![CDATA[Recomendar]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanLostDiskDeep" ControlType="1">
+        <Text><![CDATA[<font color=#26324B>Não consegue encontrar a sua partição? </font> <b><a href="#"><font color=#00AEE6>Tente novamente.</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskBack" ControlType="1">
+        <Text><![CDATA[<b><a href="#"><font color=#00AEE6>Previous scan log</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskStopDesc" ControlType="11">
+        <Text><![CDATA[Tem a certeza que pretende parar o scan?]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskOtherPartiton" ControlType="1">
+        <Text><![CDATA[Outras Partições]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartDesc" ControlType="1">
+        <Text><![CDATA[Por favor conecte um dispositivo externo ao computador]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText1" ControlType="1">
+        <Text><![CDATA[Flash Drive USB]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText2" ControlType="1">
+        <Text><![CDATA[Câmera Digital]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText3" ControlType="1">
+        <Text><![CDATA[Camcorder]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText4" ControlType="1">
+        <Text><![CDATA[Cartão de Memória]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText5" ControlType="1">
+        <Text><![CDATA[Leitor iPod/MP3/MP4]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText6" ControlType="1">
+        <Text><![CDATA[Cartão SD]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText7" ControlType="1">
+        <Text><![CDATA[Cartão CF/XD/MMC]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText8" ControlType="1">
+        <Text><![CDATA[Mais Dispositivos]]></Text>
+      </Control>	  
+	  <Control ClassName="ExternDiskRefreshFrameDesc" ControlType="1">
+        <Text><![CDATA[Não foi detectado nenhum dispositivo de armazenamento externo, por favor reconecte e atualize.]]></Text>
+      </Control>
+	  <Control ClassName="VirusesFrameDesc" ControlType="1">
+        <Text><![CDATA[Recupere os seus arquivos perdidos devido a ataques de vírus ou infeções.]]></Text>
+      </Control>
+	  <Control ClassName="ScanFramePauseTooltip" ControlType="11">
+        <Text><![CDATA[Pausa]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameStopTooltip" ControlType="11">
+        <Text><![CDATA[Parar]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanFrameFileSizeDesc" ControlType="11">
+        <Text><![CDATA[%1 itens, %2]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameSelectFileSizeDesc" ControlType="11">
+        <Text><![CDATA[%1 de %2 itens, %3]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateDesc" ControlType="1">
+        <Text><![CDATA[Data de modificação do arquivo]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText1" ControlType="9">
+        <Text><![CDATA[Todos os dados]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText2" ControlType="9">
+        <Text><![CDATA[Hoje]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText3" ControlType="9">
+        <Text><![CDATA[Semana passada]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText4" ControlType="9">
+        <Text><![CDATA[Mês passado]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText5" ControlType="9">
+        <Text><![CDATA[Personalizado]]></Text>
+      </Control>
+	  <Control ClassName="FilterDialogDesc" ControlType="11">
+        <Text><![CDATA[Comando inválido: O tempo de fim termina antes do tempo de início. Por favor corrija e tente novamente.]]></Text>
+      </Control>	
+      <Control ClassName="ScanFrameButtonHome" ControlType="13">
+        <Text><![CDATA[Registro do scan anterior]]></Text>
+      </Control>
+	  <Control ClassName="AllAround" ControlType ="11" >
+        <Text><![CDATA[<font color=#26324B>CNão consegue encontrar os arquivos perdidos? Experimente a </font> <b><a href="#"><font color=#00AEE6> Recuperação Geral</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="AllArounddisabled" ControlType ="11" >
+        <Text><![CDATA[<font color=#CDCDCD>Não consegue encontrar os arquivos perdidos? Experimente a </font> <b><a href="#"><font color=#B2DFF8> Recuperação Geral</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="AllAroundHint" ControlType ="11" >
+        <Text><![CDATA[O Modo de Recuperação Geral demora mais tempo a encontrar os arquivos de uma forma mais profunda.]]></Text>
+      </Control>
+	  <Control ClassName="RAWDeep" ControlType ="11" >
+        <Text><![CDATA[<font color=#26324B>Ainda não conseguiu encontrar os arquivos perdidos? Tente o </font> <b><a href="#"><font color=#00AEE6>Scan Profundo</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="RAWDeepdisabled" ControlType ="11" >
+        <Text><![CDATA[<font color=#CDCDCD>Ainda não conseguiu encontrar os arquivos perdidos? Tente o </font> <b><a href="#"><font color=#B2DFF8>Scan Profundo</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="RAWDeepHint" ControlType ="11" >
+        <Text><![CDATA[O Modo Scan Profundo consegue encontrar mais arquivos. Contudo, demora mais tempo.]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanCompleteed" ControlType ="11" >
+        <Text><![CDATA[Scan concluído!]]></Text>
+      </Control>
+	  <Control ClassName="AllRoundScanCompleteed" ControlType = "11" >
+        <Text><![CDATA[Ainda não conseguiu encontrar os arquivos perdidos? Por favor selecione o Modo Recuperação Geral e tente novamente.]]></Text>
+      </Control>
+	  <Control ClassName="RawScanCompleteed" ControlType ="11" >
+        <Text><![CDATA[Ainda não conseguiu encontrar os arquivos perdidos? Por favor selecione o Modo Scan Profundo e tente novamente.]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameThumbnailTooltip" ControlType="11">
+        <Text><![CDATA[Vista de Miniatura]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameTableTooltip" ControlType="11">
+        <Text><![CDATA[Visualização de Lista]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameExit" ControlType="11">
+        <Text><![CDATA[O resultado do scan não será guardado se você fechar o programa. Tem a certeza que pretende fechar o programa? ]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameHomeBack" ControlType="11">
+        <Text><![CDATA[O resultado do scan não será guardado se você sair agora. Tem a certeza que pretende sair?]]></Text>
+      </Control>
+	  <Control ClassName="SearchFrameDesc" ControlType="11">
+        <Text><![CDATA[Não foram encontrados itens correspondentes.]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanFrameRecoverHint" ControlType="11">
+        <Text><![CDATA[Por favor selecione um arquivo para recuperar.]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskStopDescHome" ControlType="11">
+        <Text><![CDATA[Tem a certeza que pretende sair e voltar para a página inicial?]]></Text>
+      </Control>
+	</Dialog> 
+	
+    <Dialog ClassName="CPrivewDocument">
+      <Control ClassName="FileName" ControlType="11">
+        <Text><![CDATA[Nome do Arquivo]]></Text>
+      </Control>
+      <Control ClassName="CreateTime" ControlType="11">
+        <Text><![CDATA[Data da Criação]]></Text>
+      </Control>
+      <Control ClassName="WriteTime" ControlType="11">
+        <Text><![CDATA[Última Modificação]]></Text>
+      </Control>
+      <Control ClassName="AccessTime" ControlType="11">
+        <Text><![CDATA[Último Acesso]]></Text>
+      </Control>
+      <Control ClassName="Size" ControlType="11">
+        <Text><![CDATA[Tamanho]]></Text>
+      </Control>
+      <Control ClassName="Dir" ControlType="11">
+        <Text><![CDATA[Diretório]]></Text>
+      </Control>
+      <Control ClassName="strLoad" ControlType="11">
+        <Text><![CDATA[Carregando, por favor aguarde...]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CAboutDialog">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr="Fechar" />
+      </Control>
+      <Control ClassName="m_lblTitle" ControlType="2">
+        <Text><![CDATA[Sobre]]></Text>
+      </Control>
+      <Control ClassName="lblPhotoName" ControlType="1">
+        <Text><![CDATA[Wondershare Data Recovery]]></Text>
+        <StatusTip StatusTipStr="recuperar fotos">
+        </StatusTip>
+        <Font Bold="1" PointSize="8" R="99" G="106" B="124">
+        </Font>
+        <Margins Left="40" Top="140" Width="200" Height="16">
+        </Margins>
+      </Control>
+      <Control ClassName="lblVersion" ControlType="11">
+        <Text><![CDATA[Versão:]]></Text>
+        <Font Bold="1" PointSize="8" R="99" G="106" B="124" />
+        <Margins Left="240" Top="140" Width="100" Height="16" />
+      </Control>
+      <Control ClassName="lblSupport" ControlType="1">
+        <Text><![CDATA[Centro de Suporte:]]></Text>
+        <Font Bold="1" PointSize="8" R="99" G="106" B="124" />
+        <Margins Left="40" Top="180" Width="300" Height="16" />
+      </Control>
+      <Control ClassName="lblHomepage" ControlType="1">
+        <Text><![CDATA[Página Principal:]]></Text>
+        <Font Bold="1" PointSize="8" R="99" G="106" B="124" />
+        <Margins Left="40" Top="215" Width="300" Height="16" />
+      </Control>
+      <Control ClassName="lblSuppotNet" ControlType="2">
+        <Font Bold="1" PointSize="8" R="99" G="106" B="124" />
+        <Margins Left="150" Top="180" Width="380" Height="16" />
+      </Control>
+      <Control ClassName="lblHomepageNet" ControlType="2">
+        <Font Bold="1" PointSize="8" R="99" G="106" B="124" />
+        <Margins Left="150" Top="215" Width="380" Height="16" />
+      </Control>
+      <Control ClassName="lblCopyRight" ControlType="1">
+        <Text><![CDATA[Copyright © 2017 Wondershare. Todos os direitos reservados.]]></Text>
+        <Font Bold="0" PointSize="8" R="99" G="106" B="124" />
+        <Margins Left="35" Top="270" Width="400" Height="16" />
+      </Control>
+      <Control ClassName="m_scrollMessageHead" ControlType="11">
+        <Text>
+<![CDATA[Wondershare Recoverit]]></Text>
+      </Control>
+	   <Control ClassName="m_scrollMessageHead1" ControlType="11">>
+	    <Text>
+	    <![CDATA[Versão: 6.0.0
+		
+Wondershare Technology Corp. é uma
+companhia de alta tecnologia dedicada a fornecer aos 
+usuários de todo o mundo o software de aplicativos 
+mais avançado. Seu mote é: "Wonderful Software, 
+Wonderful Life - Software Maravilhoso, Vida 
+Maravilhosa". Wondershare fornece aos seus clientes
+uma enorme variedade de produtos de software e 
+serviços para Windows, Macintosh, iOS, Android 
+e outros sistemas operativos.
+
+Para mais informações sobre Wondershare e os 
+produtos Wondershare, por favor visite:]]>
+      </Text>  
+	  </Control>
+      <Control ClassName="m_scrollMessageCenter" ControlType="11">
+        <Text><![CDATA[Página Principal de Wondershare]]></Text>
+      </Control>
+      <Control ClassName="m_scrollMessageTail" ControlType="11">
+        <Text><![CDATA[Copyright © 2019 Wondershare. All rights reserved.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="cmenuOption">
+      <Control ClassName="m_lblTitle" ControlType="1">
+        <Text><![CDATA[Opções de Definições]]></Text>
+      </Control>
+      <Control ClassName="Interface" ControlType="1">
+        <Text><![CDATA[Interface]]></Text>
+        <Margins Left="60" Top="55" Width="70" Height="22" />
+      </Control>
+      <Control ClassName="m_scanSeprator" ControlType="12">
+        <Margins Left="240" Top="130" Width="386" Height="3"></Margins>
+      </Control>
+      <Control ClassName="m_lanugageSeprator" ControlType="12">
+        <Margins Left="140" Top="65" Width="481" Height="3"></Margins>
+      </Control>
+      <Control ClassName="Language" ControlType="1">
+        <Text><![CDATA[Idioma]]></Text>
+        <Margins Left="60" Top="104" Width="70" Height="30"/>
+      </Control>
+      <Control ClassName="languageCombox" ControlType ="4">
+		<Contents StringItems ="English(English),Japanese(日本語),French(Français),German(Deutsch),Chinese Traditional(中国香港),Chinese Traditional(中国台湾),Portuguese(Portuguese),Italiano(Italiano),Spanish(Español),Netherland(Nederlands),Arab( العربية )"/>
+        <FixSize FixHeight ="30" FixWidth ="170"/>
+        <Margins Left="136" Top="104" Width="200" Height="30" />
+      </Control>
+      <Control ClassName="scanTitle" ControlType="1">
+        <Text><![CDATA[Definições de Recuperação]]></Text>
+        <Margins Left="60" Top="117" Width="165" Height="22" />
+      </Control>
+      <Control ClassName="openFolderCheckBox" ControlType="5">
+        <Text><![CDATA[Abre automaticamente a pasta pretendida após a recuperação.]]></Text>
+        <Contents State="1" />
+        <FixSize FixHeight="22" />
+       <Margins Left="60" Top="150" Width="500" Height="22"/>
+      </Control>
+      <Control ClassName="okButton" ControlType="13">
+        <Text><![CDATA[Concluído]]></Text>
+        <Margins Left="325" Top="198" Width="120" Height="32" />
+      </Control>
+      <Control ClassName="cancelButton" ControlType="13">
+        <Text><![CDATA[Cancelar]]></Text>
+       <Margins Left="185" Top="198" Width="120" Height="32" />
+      </Control>
+	  <Control ClassName="okButton1" ControlType="13">
+        <Text><![CDATA[OK]]></Text>
+      </Control>
+      <Control ClassName="cancelButton1" ControlType="13">
+        <Text><![CDATA[Cancelar]]></Text>
+      </Control>
+      <Control ClassName="closeButton" ControlType="13">
+        <StatusTip StatusTipStr="Fechar" />
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="WizardFirstPage">
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Responda a estas 2 simples questões e nós iremos recuperar os arquivos perdidos para você.]]></Text>
+        <Margins Left="180" Top="120" Width="425" Height="80" />
+      </Control>
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+	    <Text><![CDATA[Para não usar este assistente, altere para o <a href =1><font color="#217EC4">Modo Padrão</font></a>.]]></Text>
+        <Margins Left="20" Top="320" Width="490" Height="40" />
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="WizardSecondPage">
+      <Control ClassName="m_LabPhotoTitle" ControlType="1">
+        <Text><![CDATA[Foto]]></Text>
+      </Control>
+      <Control ClassName="m_LabPhoto" ControlType="1">
+        <Text><![CDATA[Arquivos de imagem comum, tais como fotos de câmeras digitais.]]></Text>
+      </Control>
+      <Control ClassName="m_LabMusicTitle" ControlType="1">
+        <Text><![CDATA[Áudio]]></Text>
+      </Control>
+      <Control ClassName="m_LabMusic" ControlType="1">
+        <Text><![CDATA[Arquivos de áudio comun, tais como MP3, WMA, etc.]]></Text>
+      </Control>
+      <Control ClassName="m_LabVideoTitle" ControlType="1">
+        <Text><![CDATA[Vídeo]]></Text>
+      </Control>
+      <Control ClassName="m_LabVideo" ControlType="1">
+        <Text><![CDATA[Arquivos de vídeo comun, tais como gravações de câmeras digitais.]]></Text>
+      </Control>
+      <Control ClassName="m_LabDocumentTitle" ControlType="1">
+        <Text><![CDATA[Documento Office]]></Text>
+      </Control>
+      <Control ClassName="m_LabDocument" ControlType="1">
+        <Text><![CDATA[Arquivos de documentos comun, tais como Word, Excel, arquivos PDF, etc.]]></Text>
+      </Control>
+      <Control ClassName="m_LabEmailTitle" ControlType="1">
+        <Text><![CDATA[Email]]></Text>
+      </Control>
+      <Control ClassName="m_LabEmail" ControlType="1">
+        <Text><![CDATA[Arquivos comun do Outlook ou Outlook Express, tais como pst, dbx, etc.]]></Text>
+      </Control>
+      <Control ClassName="m_LabAllFileTitle" ControlType="1">
+        <Text><![CDATA[Todos os Arquivos]]></Text>
+      </Control>
+      <Control ClassName="m_LabAllFile" ControlType="1">
+        <Text><![CDATA[Escanear todos acima e outros arquivos.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="WizardThirdPage">
+	  <Control ClassName="m_Commontitle" ControlType="1">
+        <Text><![CDATA[Espaços comuns]]></Text>
+      </Control>
+	  <Control ClassName="m_Hardtitle" ControlType="1">
+        <Text><![CDATA[Disco rígido]]></Text>
+      </Control>
+	  <Control ClassName="m_Extertitle" ControlType="1">
+        <Text><![CDATA[Dispositivo externo removível]]></Text>
+      </Control>
+      <Control ClassName="m_LabPhotoTitle" ControlType="1">
+        <Text><![CDATA[Área de Trabalho]]></Text>
+
+      </Control>
+      <Control ClassName="m_LabPhoto" ControlType="1">
+        <Text><![CDATA[Escanear todo o computador.]]></Text>
+      </Control>
+      <Control ClassName="m_LabMusicTitle" ControlType="1">
+        <Text><![CDATA[Dispositivo externo removível]]></Text>
+      </Control>
+      <Control ClassName="m_LabMusic" ControlType="1">
+        <Text><![CDATA[Escanear dispositivo removível tal como iPod, câmera digital, drive USB, etc.]]></Text>
+      </Control>
+      <Control ClassName="m_LabVideoTitle" ControlType="1">
+        <Text><![CDATA[Reciclagem]]></Text>
+      </Control>
+      <Control ClassName="m_LabVideo" ControlType="1">
+        <Text><![CDATA[Escanear arquivos excluídos da Reciclagem.]]></Text>
+      </Control>
+      <Control ClassName="m_LabDocumentTitle" ControlType="1">
+        <Text><![CDATA[Computador Inteiro]]></Text>
+      </Control>
+      <Control ClassName="m_LabDocument" ControlType="1">
+        <Text><![CDATA[Escaneie arquivos excluídos do Ambiente de Trabalho, Meus Documentos ou Bibliotecas.]]></Text>
+      </Control>
+      <Control ClassName="m_LabEmailTitle" ControlType="1">
+        <Text><![CDATA[Meus Documentos]]></Text>
+      </Control>
+      <Control ClassName="m_BtnBrowse" ControlType="13">
+        <Text><![CDATA[Explorar...]]></Text>
+        <Margins Left="505" Top="30" Width="84" Height="27" />
+      </Control>
+      <Control ClassName="m_LabAllFileTitle" ControlType="1">
+        <Text><![CDATA[Não consigo encontrar minha partição]]></Text>
+      </Control>
+      <Control ClassName="m_LabAllFile" ControlType="1">
+        <Text><![CDATA[Buscar partições perdidas do seu disco.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="WizardForthPage">
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[Clique Iniciar para começar.]]></Text>
+        <Margins Left="30" Top="250" Width="400" Height="20" />
+      </Control>
+      <Control ClassName="m_CheckAdvance" ControlType="5">
+        <Text><![CDATA[Permitir Recuperação Avançada de Arquivos.]]></Text>
+        <Margins Left="20" Top="145" Width="500" Height="20" />
+      </Control>
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Recupera e classifica seus arquivos de acordo com os tipos de arquivo sem o nome original, mas irá demorar mais tempo. Esta opção apenas funciona corretamente ao recuperar fotos.]]></Text>
+        <Margins Left="38" Top="165" Width="410" Height="60" />
+      </Control>
+      <Control ClassName="m_CheckFormat" ControlType="5">
+        <Text><![CDATA[Permitir Scan Profundo.]]></Text>
+        <Margins Left="20" Top="60" Width="400" Height="20" />
+      </Control>
+      <Control ClassName="m_LabFormat" ControlType="1">
+        <Text><![CDATA[Recupera arquivos formatados com a estrutura de pastas completa, mas irá demorar mais tempo. Esta opção apenas funciona corretamente para recuperações formatadas.]]></Text>
+        <Margins Left="38" Top="83" Width="400" Height="60" />
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="StandardHomePage">
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Para iniciar, por favor selecione um Módulo de Recuperação em baixo, ou acesse o <a href =2><font color="#217EC4">Assistente</font></a>.]]></Text>
+        <Margins Left="150" Top="7" Width="580" Height="40" />
+      </Control>
+      <Control ClassName="m_LabSelLostFileR" ControlType="8">
+        <Text><![CDATA[Recuperar Arquivos Perdidos]]></Text>
+        <Margins Left="120" Top="80" Width="250" Height="40" />
+      </Control>
+      <Control ClassName="m_LabLostFile" ControlType="1">
+        <Text><![CDATA[Recupera arquivos excluídos e formatados a partir de uma partições ou mídia removível, tais como arquivos excluídos com Shift + Delete ou excluídos da Reciclagem.]]></Text>
+        <Margins Left="120" Top="115" Width="230" Height="120" />
+      </Control>
+      <Control ClassName="m_LabSelLostPartR" ControlType="8">
+        <Text><![CDATA[Recuperação de Partição]]></Text>
+        <Margins Left="488" Top="80" Width="200" Height="40" />
+      </Control>
+      <Control ClassName="m_LabLostPart" ControlType="1">
+        <Text><![CDATA[Ache partições perdidas, excluídas, redimensionadas ou danificadas e recupere os arquivos e pastas perdidos.]]></Text>
+        <Margins Left="488" Top="115" Width="230" Height="120" />
+      </Control>
+      <Control ClassName="m_LabSelRawFileR" ControlType="8">
+        <Text><![CDATA[Recuperação Avançada]]></Text>
+        <Margins Left="120" Top="235" Width="250" Height="40" />
+      </Control>
+      <Control ClassName="m_LabRaw" ControlType="1">
+        <Text><![CDATA[Se scans anteriores não conseguiram achar seus arquivos perdidos, por favor selecione a Recuperação Avançada de Arquivo. No entanto, isso não irá exibir o nome ou destino do arquivo.]]></Text>
+        <Margins Left="120" Top="270" Width="230" Height="120" />
+      </Control>
+      <Control ClassName="m_LabSelResumeR" ControlType="8">
+        <Text><![CDATA[Retomar Recuperação]]></Text>
+        <Margins Left="487" Top="235" Width="200" Height="40" />
+      </Control>
+      <Control ClassName="m_LabResume" ControlType="1">
+        <Text><![CDATA[Importar resultados de scan salvos para retomar uma sessão anterior de recuperação.]]></Text>
+
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="StandardLostFilePage">
+      <Control ClassName="m_CheckFormat" ControlType="5">
+        <Text><![CDATA[Permitir Scan Profundo.]]></Text>
+      </Control>
+      <Control ClassName="m_LabFormat" ControlType="1">
+        <Text><![CDATA[Recupera arquivos formatados com a estrutura de pastas completa, mas irá demorar mais tempo. Esta opção apenas funciona corretamente para recuperações formatadas.]]></Text>
+        <Margins Left="24" Top="290" Width="700" Height="40" />
+      </Control>
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[Sistema de Archivos]]></Text>
+        <Margins Left="24" Top="325" Width="200" Height="22" />
+      </Control>
+      <Control ClassName="m_ComBoxFileSys" ControlType="4">
+        <Contents StringItems="Auto(Recommanded),NTFS,FAT32,FAT16,exFAT" />
+        <Margins Left="168" Top="325" Width="160" Height="22" />
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="StandardPartitionPage">
+      <Control ClassName="m_lblText" ControlType="11">
+        <Text><![CDATA[O processo de scan não poderá ser retomado. Tem a certeza que pretende parar o scan?]]></Text>
+      </Control>
+      <Control ClassName="m_CheckAdvance" ControlType="5">
+        <Text><![CDATA[Permitir Recuperação Avançada de Arquivos.]]></Text>
+        <Margins Left="22" Top="275" Width="500" Height="20" />
+      </Control>
+      <Control ClassName="m_LabFormat" ControlType="1">
+        <Text><![CDATA[Recupera e classifica seus arquivos de acordo com os tipos de arquivo sem o nome original, mas irá demorar mais tempo. Esta opção apenas funciona corretamente ao recuperar fotos.]]></Text>
+      </Control>
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Escanear volume perdido]]></Text>
+        <Margins Left="100" Top="300" Width="350" Height="20" />
+      </Control>
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[Escanear sistema de arquivos:]]></Text>
+        <Margins Left="22" Top="325" Width="200" Height="22" />
+      </Control>
+      <Control ClassName="m_ComBoxFileSys" ControlType="4">
+        <Contents StringItems="Auto(Recommended),NTFS,FAT32,FAT16,exFAT" />
+        <Margins Left="170" Top="326" Width="160" Height="22" />
+      </Control>
+      <Control ClassName="m_BtnLostParStop" ControlType="13">
+        <Text><![CDATA[Parar]]></Text>
+
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="StandardRawPage">
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Scan rápido a arquivos excluídos.]]></Text>
+      </Control>
+      <Control ClassName="m_LabFormat" ControlType="1">
+        <Text><![CDATA[Ele consegue achar mais arquivos, mas poderá demorar mais tempo.]]></Text>
+      </Control>
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[Opções de Scan:]]></Text>
+      </Control>
+      <Control ClassName="m_RadioBtnAllFilesRaw" ControlType="9">
+        <Text><![CDATA[Para Todos os Arquivos:]]></Text>
+      </Control>
+      <Control ClassName="m_RadioBtnDelFilesRaw" ControlType="9">
+        <Text><![CDATA[Para Arquivos Excluídos:]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CMenuOptions">
+	  <Control ClassName="m_Menu" ControlType="6">
+        <Size Width="180" />
+      </Control>
+      <Control ClassName="m_optionsAction" ControlType="1">
+        <Text><![CDATA[Opções]]></Text>
+      </Control>
+      <Control ClassName="m_helpAction" ControlType="1">
+        <Text><![CDATA[Ajuda Online     F1]]></Text>
+      </Control>
+      <Control ClassName="m_purchaseAction" ControlType="1">
+        <Text><![CDATA[Comprar]]></Text>
+      </Control>
+      <Control ClassName="m_registerAction" ControlType="1">
+        <Text><![CDATA[Registrar]]></Text>
+      </Control>
+      <Control ClassName="m_suppotAction" ControlType="1">
+        <Text><![CDATA[Centro de Suporte]]></Text>
+      </Control>
+      <Control ClassName="m_contactAction" ControlType="1">
+        <Text><![CDATA[Contatar Seviço de Cliente]]></Text>
+      </Control>
+      <Control ClassName="m_updateAction" ControlType="1">
+        <Text><![CDATA[Verificar Atualizações]]></Text>
+      </Control>
+      <Control ClassName="m_aboutAction" ControlType="1">
+        <Text><![CDATA[Sobre]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="WizardFirstPage">
+      <Control ClassName="m_pBtnMin" ControlType="13">
+        <StatusTip StatusTipStr="Minimizar" />
+      </Control>
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr="Fechar" />
+      </Control>
+      <Control ClassName="m_BtnMenu" ControlType="13">
+        <StatusTip StatusTipStr="Menú" />
+      </Control>
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Bem-vindo ao Assistente do Wondershare Data Recovery!]]></Text>
+      </Control>
+      <Control ClassName="m_CheckBoxWizard" ControlType="5">
+        <Text><![CDATA[Não exibir este Assistente ao iniciar]]></Text>
+      </Control>
+      <Control ClassName="m_BntNext" ControlType="13">
+        <Text><![CDATA[Seguinte]]></Text>
+      </Control>
+      <Control ClassName="m_strErrorMes" ControlType="11">
+        <Text><![CDATA[O carregamento falhou devido ao dispositivo inacessível, sistema de arquivos alterado ou resultados de scan corrompidos.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="WizardSecondPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Quais os tipos de arquivos que pretende recuperar?]]></Text>
+      </Control>
+	  <Control ClassName="m_LabNavigation1" ControlType="1">
+        <Text><![CDATA[Selecione o local para começar a buscar seus dados.]]></Text>
+      </Control>
+      <Control ClassName="m_BntBack" ControlType="13">
+        <Text><![CDATA[Voltar]]></Text>
+      </Control>
+      <Control ClassName="m_BntNext" ControlType="13">
+        <Text><![CDATA[Seguinte]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="WizardThirdPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Onde perdeu seus arquivos?]]></Text>
+      </Control>
+      <Control ClassName="m_BntBack" ControlType="13">
+        <Text><![CDATA[Voltar]]></Text>
+      </Control>
+      <Control ClassName="m_BntNext" ControlType="13">
+        <Text><![CDATA[Seguinte]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="WizardForthPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Wondershare Data Recovery está pronto para buscar por seus arquivos.]]></Text>
+
+      </Control>
+      <Control ClassName="m_BntBack" ControlType="13">
+        <Text><![CDATA[Voltar]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13" LabState="Normal">
+        <Text><![CDATA[Iniciar]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13" LabState="LostPartion">
+        <Text><![CDATA[Seguinte]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="StandardHomePage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="StandardLostFilePage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecione uma localização para recuperar arquivos:]]></Text>
+      </Control>
+      <Control ClassName="m_BntHome" ControlType="13">
+        <Text><![CDATA[Voltar]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13">
+        <Text><![CDATA[Iniciar]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="StandardLostPartPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecione uma drive física para buscar partições:]]></Text>
+      </Control>
+      <Control ClassName="m_BntHome" ControlType="13">
+        <Text><![CDATA[Home]]></Text>
+      </Control>
+      <Control ClassName="m_BntNext" ControlType="13">
+        <Text><![CDATA[Seguinte]]></Text>
+      </Control>
+      <Control ClassName="m_CheckFastScan" ControlType="5">
+        <Text><![CDATA[Permitir Scan Rápido]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="StandardPartitionPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecione uma partição para escanear arquivos:]]></Text>
+      </Control>
+      <Control ClassName="m_BntHome" ControlType="13">
+        <Text><![CDATA[Home]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13">
+        <Text><![CDATA[Iniciar]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="StandardRawPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecione uma partição onde pretende recuperar arquivos:]]></Text>
+      </Control>
+      <Control ClassName="m_BntHome" ControlType="13">
+        <Text><![CDATA[Home]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13">
+        <Text><![CDATA[Iniciar]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CphysicDiskListModel">
+      <Control ClassName="m_Partition" ControlType="10">
+        <Text><![CDATA[Drives Físicas]]></Text>
+        <Font Bold="1" PointSize="8" R="75" G="82" B="100" />
+      </Control>
+      <Control ClassName="m_Size" ControlType="10">
+        <Text><![CDATA[Ocupa]]></Text>
+        <Font Bold="1" PointSize="8" R="75" G="82" B="100" />
+      </Control>
+      <Control ClassName="m_DriveNo" ControlType="10">
+        <Text><![CDATA[Disco No.]]></Text>
+        <Font Bold="1" PointSize="8" R="75" G="82" B="100" />
+      </Control>
+      <Control ClassName="m_strPrevioueScan" ControlType="11">
+        <Text><![CDATA[Examinar Recuperação Anterior....]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CpartitionListModel">
+      <Control ClassName="m_partition" ControlType="10">
+        <Text><![CDATA[Drives Lógicas]]></Text>
+      </Control>
+      <Control ClassName="m_size" ControlType="10">
+        <Text><![CDATA[Tamanho]]></Text>
+      </Control>
+      <Control ClassName="m_type" ControlType="10">
+        <Text><![CDATA[Sistema de Archivos]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CTableModelData">
+      <Control ClassName="Head0" ControlType="11">
+        <Text><![CDATA[     Nome]]></Text>
+      </Control>
+      <Control ClassName="Head1" ControlType="11">
+        <Text><![CDATA[Tamanho]]></Text>
+      </Control>
+      <Control ClassName="Head2" ControlType="11">
+        <Text><![CDATA[Destino]]></Text>
+      </Control>
+      <Control ClassName="Head3" ControlType="11">
+        <Text><![CDATA[Data de Criação]]></Text>
+      </Control>
+      <Control ClassName="Head4" ControlType="11">
+        <Text><![CDATA[Data de Modificação]]></Text>
+      </Control>
+      <Control ClassName="Head5" ControlType="11">
+        <Text><![CDATA[Estado]]></Text>
+      </Control>
+      <Control ClassName="m_strGood" ControlType="11">
+        <Text><![CDATA[Bom]]></Text>
+      </Control>
+      <Control ClassName="m_strBad" ControlType="11">
+        <Text><![CDATA[Mau]]></Text>
+      </Control>
+      <Control ClassName="m_strPoor" ControlType="11">
+        <Text><![CDATA[Péssimo]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CLostPartitionListModel">
+      <Control ClassName="m_Partition" ControlType="11">
+        <Text><![CDATA[Volume]]></Text>
+        <Font Bold="1" PointSize="8.5" R="75" G="82" B="100" />
+      </Control>
+      <Control ClassName="m_Filesystem" ControlType="11">
+        <Text><![CDATA[Sistema de Archivos]]></Text>
+        <Font Bold="1" PointSize="8.5" R="75" G="82" B="100" />
+      </Control>
+      <Control ClassName="m_StartSector" ControlType="11">
+        <Text><![CDATA[Setor de Início]]></Text>
+        <Font Bold="1" PointSize="8.5" R="75" G="82" B="100" />
+      </Control>
+      <Control ClassName="m_EndSector" ControlType="11">
+        <Text><![CDATA[Setor de Fim]]></Text>
+        <Font Bold="1" PointSize="8.5" R="75" G="82" B="100" />
+      </Control>
+      <Control ClassName="m_Size" ControlType="11">
+        <Text><![CDATA[Tamanho]]></Text>
+        <Font Bold="1" PointSize="8.5" R="75" G="82" B="100" />
+      </Control>
+      <Control ClassName="m_Valid" ControlType="11">
+        <Text><![CDATA[Validade]]></Text>
+        <Font Bold="1" PointSize="8.5" R="75" G="82" B="100" />
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CRegisterDialog" PageType="Register">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr="Fechar" />
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState="RegisterSuccss">
+        <Text><![CDATA[Wondershare Recvoerit foi registrado!]]></Text>
+      </Control>
+      <Control ClassName="m_lblEmail" ControlType="1">
+        <Text><![CDATA[E-mail Registrado:]]></Text>
+        <Font Bold="1" PointSize="9" />
+      </Control>
+      <Control ClassName="m_lblCode" ControlType="1">
+        <Text><![CDATA[Código de Registro:]]></Text>
+        <Font Bold="1" PointSize="9" />
+      </Control>
+      <!--<Control ClassName="m_lblNote" ControlType="1">
+        <Text><![CDATA[Note:]]></Text>
+        <Font Bold = "0" PointSize = "9"/>
+        <Margins Left="37" Top="290" Width ="30" Height="16"/>
+      </Control>-->
+      <Control ClassName="m_closeDlgButton" ControlType="13">
+        <Text><![CDATA[Fechar]]></Text>
+      </Control>
+      <Control ClassName="m_lblLetterTop" ControlType="1">
+        <Text><![CDATA[<b>Nota:</b> Se você tiver algum problema com o código de registro e com o software, por favor visite: <Font color="#217EC4"><a href="0">Suporte</a></Font>.]]></Text>
+        <Font Bold="0" PointSize="9" />
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CRegisterDialog" PageType="UnRegister">
+      <Control ClassName="m_lblText" ControlType="11" LabState="CodeNull">
+        <Text><![CDATA[Código de registro não pode estar vazio. Por favor tente novamente.]]></Text>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState="EmailError">
+        <Text><![CDATA[E-mail da licença inválido. Por favor tente novamente.]]></Text>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState="RegisterFile">
+        <Text><![CDATA[E-mail da licença ou código de registro inválido! Tenha atenção às letras maiúsculas e minúsculas, tanto no e-mail da licença  como no código de registro. Por favor verifique a informação de registro ou certifique-se de que seu código de registro corresponde à versão atual.]]></Text>
+      </Control>
+      <Control ClassName="m_closeDlgButton" ControlType="13">
+        <Text><![CDATA[Teste Gratuito]]></Text>
+      </Control>
+      <Control ClassName="m_RegisterButton" ControlType="13">
+        <Text><![CDATA[Registrar]]></Text>
+      </Control>
+      <Control ClassName="m_BuyNowButton" ControlType="13">
+        <Text><![CDATA[Comprar Agora]]></Text>
+      </Control>
+      <Control ClassName="m_lblLetterTop" ControlType="1">
+        <Text><![CDATA[<b>Nota:</b>Se você tiver algum problema com o código de registro ou com o software, por favor visite:  <Font color="#217EC4"><a href="1">Suporte</a></Font>.]]></Text>
+        <Font Bold="0" PointSize="9" />
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop0">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr="Fechar" />
+      </Control>
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Sim]]></Text>
+      </Control>
+      <Control ClassName="m_NoButton" ControlType="13">
+        <Text><![CDATA[Não]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop1">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Parar]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Cancelar]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop2">
+      <Control ClassName="m_ExitButton" ControlType="13">
+        <Text><![CDATA[Sair]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Cancelar]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop3">
+      <Control ClassName="m_NoButton" ControlType="13">
+        <Text><![CDATA[Não]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Cancelar]]></Text>
+      </Control>
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Salvar]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop4">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Concluído]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop5">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Substituir]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Cancelar]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop6">
+      <Control ClassName="m_sureButton" Contro
