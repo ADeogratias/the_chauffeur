@@ -124,7 +124,7 @@ include('server.php');
                                     </div>
                                     </div>
                                 <!-- </div> -->
-                                <button class="boxed-btn3" type="submit" name="bookdriver">Book A Driver</button>
+                                <button class="boxed-btn3"  type="submit" name="bookdriver">Book A Driver</button>
                                 </form>
                         
                         </div>

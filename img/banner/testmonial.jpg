@@ -1,0 +1,1204 @@
+Dialog" PageType="Stop5">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Overschrijven]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Annuleren]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop6">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Opslaan]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Annuleren]]></Text>
+      </Control>
+    </Dialog>
+	 <Dialog ClassName="CPromptDialog" PageType="Stop7">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Ga verder]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Verander map]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomDialog" PageType="Registery">
+      <Control ClassName="m_lblTitle" ControlType="1">
+        <Text><![CDATA[Recoverit]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomDialog" PageType="UnRegistery">
+      <Control ClassName="m_lblTitle" ControlType="1">
+        <Text><![CDATA[data recovery (Niet geregistreerd)]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CMainWidget" >
+      <!--右上角提示-->
+      <Control ClassName="m_pBtnMin" ControlType="13">
+        <StatusTip StatusTipStr ="Minimaliseren"/>
+      </Control>
+      <Control ClassName="m_pBtnMax" ControlType="13">
+        <StatusTip StatusTipStr ="Maximaliseren"/>
+      </Control>
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Sluit"/>
+      </Control>
+      <Control ClassName="m_pBtnMenu" ControlType="13">
+        <StatusTip StatusTipStr ="Menu"/>
+      </Control>
+      <!--扫描时控制按钮-->
+      <Control ClassName="m_pBtnPause" ControlType="13">
+        <Text><![CDATA[Pauze]]></Text>
+      </Control>
+      <Control ClassName="m_pBtnContinue" ControlType="13">
+        <Text><![CDATA[Verdergaan]]></Text>
+      </Control>
+      <Control ClassName="m_pBtnStop" ControlType="13">
+        <Text><![CDATA[Stop]]></Text>
+      </Control>
+      <!--所有扫描状态-->
+      <Control ClassName="m_strFileCount" ControlType="11" LabState="Normal">
+        <Text><![CDATA[Bestanden Gevonden: ]]></Text>
+      </Control>
+      <Control ClassName="m_strFileCount" ControlType="11" LabState="CheckSys">
+        <Text><![CDATA[Detecteren voor bestandsysteem.]]></Text>
+      </Control>
+      <Control ClassName="m_strSector" ControlType="11" >
+        <Text><![CDATA[Lezen Sectoren: ]]></Text>
+      </Control>
+      <Control ClassName="m_strRemainTime" ControlType="11" LabState="IsScanning">
+        <Text><![CDATA[Resterende Tijd: ]]></Text>
+      </Control>
+      <Control ClassName="m_strRemainTime" ControlType="11" LabState="NoScanning">
+        <Text><![CDATA[Berekenen resterende tijd]]></Text>
+      </Control>
+      <Control ClassName="m_strlblTotleMid" ControlType="11">
+        <Text><![CDATA[ in ]]></Text>
+      </Control>
+      <Control ClassName="m_strlblTotleTail" ControlType="11">
+        <Text><![CDATA[ bestand(en)]]></Text>
+      </Control>
+      <Control ClassName="m_strlblSelectHead" ControlType="11">
+        <Text><![CDATA[Je selecteert ]]></Text>
+      </Control>
+      <Control ClassName="m_strlblSelectMid" ControlType="11">
+        <Text><![CDATA[ in ]]></Text>
+      </Control>
+      <Control ClassName="m_strlblSelectTail" ControlType="11">
+        <Text><![CDATA[ bestand(en)]]></Text>
+      </Control>
+      <Control ClassName="m_strScanTimesHead" ControlType="11">
+        <Text><![CDATA[Scannen ]]></Text>
+      </Control>
+      <Control ClassName="m_strScanTimesMid" ControlType="11">
+        <Text><![CDATA[ van ]]></Text>
+      </Control>
+      <Control ClassName="m_strScanTimesTail" ControlType="11">
+        <Text><![CDATA[ schijf]]></Text>
+      </Control>
+      <Control ClassName="m_strFileNamePath" ControlType="11">
+        <Text><![CDATA[Geef Naam of Pad hier in]]></Text>
+      </Control>
+      <Control ClassName="m_strOnlyFileName" ControlType="11">
+        <Text><![CDATA[Geef Naam hier in]]></Text>
+      </Control>
+      <!--公共按钮-->
+      <Control ClassName="m_pBtnHome" ControlType="13">
+        <Text><![CDATA[ terug ]]></Text>
+      </Control>
+      <Control ClassName="m_pBtnSave" ControlType="13">
+        <Text><![CDATA[Opslaan Scan]]></Text>
+      </Control>
+      <Control ClassName="m_pBtnRecovery" ControlType="13">
+        <Text><![CDATA[  Herstellen]]></Text>
+      </Control>
+      <Control ClassName="m_pTreePathButton" ControlType="8">
+        <Text><![CDATA[Boomoverzicht]]></Text>
+        <Margins Left="85" Top="131" Width="73" Height="24"/>
+      </Control>
+      <Control ClassName="m_pTreeFileTypeButton" ControlType="8">
+        <Text><![CDATA[Bestandoverzicht]]></Text>
+        <Margins Left="10" Top="131" Width="73" Height="24"/>
+      </Control>
+      <Control ClassName="m_pFilterOptions" ControlType="13">
+        <Text><![CDATA[Filter]]></Text>
+      </Control>
+      <!--预览图片切换-->
+      <Control ClassName="DefaultPicture" ControlType="11">
+        <Text><![CDATA[Selecteer a.u.b. het bestand in het linkerpaneel en dubbelklik op bekijken]]></Text>
+      </Control>
+      <Control ClassName="NoPreViewPicture" ControlType="11">
+        <Text><![CDATA[Dit bestandtype wordt niet ondersteund om te bekijken.]]></Text>
+      </Control>
+      <Control ClassName="ErrorPicture" ControlType="11">
+        <Text><![CDATA[Kun je het niet bekijken. Het bestand kan beschadigd zijn!]]></Text>
+      </Control>
+      <Control ClassName="MaxPicture" ControlType="11">
+        <Text><![CDATA[Geen voorbeeld beschikbaar. De bestandgrootte overschrijdt het maximum voorbeeld limiet.]]></Text>
+      </Control>
+	  <Control ClassName="MaxDocument" ControlType="11">
+        <Text><![CDATA[Meer dan 30 MB bestand kan niet als voorbeeld worden bekeken.]]></Text>
+      </Control>
+      <!-- m_titleText LabState 参数对应表 程序标题
+           1 NormalScan          Registered 2  NormalScan          UnRegister
+           3 LostFileScan        Registered 4  ostFileScan         UnRegister
+           5 RawScan             Registered 6  RawScan             UnRegister
+           7 LostPartitionScan   Registered 8  LostPartitionScan   UnRegister
+           9 DeletedScan         Registered 10 DeletedScan         UnRegister
+      -->
+      <Control ClassName="m_titleText" ControlType ="11" LabState="1">
+        <Text><![CDATA[Wondershare Data Recovery]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="2">
+        <Text><![CDATA[Wondershare Data Herstel(Niet Geregistreerd)]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="3">
+        <Text><![CDATA[Wondershare Data Recovery ]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="4">
+        <Text><![CDATA[Wondershare Data Herstel(Niet Geregistreerd)]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="5">
+        <Text><![CDATA[Wondershare Data Recovery]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="6">
+        <Text><![CDATA[Wondershare Data Herstel(Niet Geregistreerd)]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="7">
+        <Text><![CDATA[Wondershare Data Recovery]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="8">
+        <Text><![CDATA[Wondershare Data Herstel (Niet Geregistreerd)]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="9">
+        <Text><![CDATA[Wondershare Data Recovery]]></Text>
+      </Control>
+      <Control ClassName="m_titleText" ControlType ="11" LabState="10">
+        <Text><![CDATA[Wondershare Data Herstel(Niet Geregistreerd)]]></Text>
+      </Control>
+      <!--各种提示语-->
+      <Control ClassName="UParationDialog" ControlType ="11" LabState="ErrorSaveDevice">
+        <Text><![CDATA[Herstel mislukt doordat er geen opslagapparaat beschikbaar is. Verbind een extern opslagapparaat en herstel je data opnieuw.]]></Text>
+      </Control>
+      <Control ClassName="UParationDialog" ControlType ="11" LabState="ErrorSourceDevice">
+        <Text><![CDATA[Herstel mislukt doordat er geen opslagapparaat beschikbaar is. Verbind een extern opslagapparaat.]]></Text>
+      </Control>
+      <Control ClassName="saveHint" ControlType ="11" LabState="BoolExitSaveData">
+        <Text><![CDATA[Wil je de huidige scantresultaten opslaan?]]></Text>
+      </Control>
+      <Control ClassName="saveHint" ControlType ="11" LabState="BoolExitSaveScan">
+        <Text><![CDATA[Weet je zeker dat je wilt stoppen? Als je stopt, worden de scanresulaten niet opgeslagen.]]></Text>
+      </Control>
+      <Control ClassName="StopRecovery" ControlType ="11" >
+        <Text><![CDATA[Weet je zeker dat je het herstel wilt stoppen? Als je stopt, worden de geselecteerde betanden niet hersteld.]]></Text>
+      </Control>
+      <Control ClassName="Save" ControlType ="11" >
+        <Text><![CDATA[De volgende keer als je de gescande resultaten laad, zal het alleen de gescande data herstellen. Je kunt niet verder gaan met het scanproces.]]></Text>
+      </Control>
+      <Control ClassName="StopDialog" ControlType ="11" >
+        <Text><![CDATA[Het scanproces kan niet hervat worden op dit moment. Weet je zeker dat je wilt stoppen met scannen?]]></Text>
+      </Control>
+      <Control ClassName="resetFilter" ControlType ="11" >
+        <Text><![CDATA[Geen relevante data gevonden! Reset het filter.]]></Text>
+      </Control>
+      <Control ClassName="noDriver" ControlType ="11" >
+        <Text><![CDATA[Geen schijf gevonden. Verbind opnieuw een extern opslagapparaat.]]></Text>
+      </Control>
+      <Control ClassName="noDriverLostPar" ControlType ="11" >
+        <Text><![CDATA[Geen enkel volume gevonden, of geen schijf gevonden. Probeer andere herstel modes.]]></Text>
+      </Control>
+      <Control ClassName="noVolume" ControlType ="11" >
+        <Text><![CDATA[Geen enkel volume gevonden. Probeer andere herstel modes om je verloren data te vinden.]]></Text>
+      </Control>
+      <Control ClassName="sysCorrupted" ControlType ="11" >
+        <Text><![CDATA[Ongeldig volume of bestandsysteem zwaar beschadigd. Probeer andere bestandsystemen of herstel modes om je verloren data te vinden.]]></Text>
+      </Control>
+      <Control ClassName="noData1" ControlType ="11" >
+        <Text><![CDATA[Sorry! Geen bestanden gevonden.]]></Text>
+      </Control>
+      <Control ClassName="noData2" ControlType ="11" >
+        <Text><![CDATA[Sorry! Geen bestanden gevonden.]]></Text>
+      </Control>
+      <Control ClassName="noData3" ControlType ="11" >
+        <Text><![CDATA[Sorry! Geen relevante data gevonden.]]></Text>
+      </Control>
+      <Control ClassName="noWantedFiles1" ControlType ="11" >
+        <Text><![CDATA[If you don't find the files you want, please try to enable Deep Scan or Raw File Recovery.]]></Text>
+      </Control>
+      <Control ClassName="noWantedFiles2" ControlType ="11" >
+        <Text><![CDATA[If you don't find the files you want, please try to enable Raw File Recovery.]]></Text>
+      </Control>
+      <Control ClassName="t_strHead" ControlType ="11" >
+        <Text><![CDATA[Are you sure you want to overwrite the ]]></Text>
+      </Control>
+      <Control ClassName="t_strTail" ControlType ="11" >
+        <Text><![CDATA[ bestand(en)? De overschreven bestand(en) kunnen niet meer worden hersteld.]]></Text>
+      </Control>
+      <Control ClassName="t_strToolTipTail" ControlType ="11" >
+        <Text><![CDATA[ bestand(en) zijn overschreven.]]></Text>
+      </Control>
+      <Control ClassName="t_strFailTail" ControlType ="11" >
+        <Text><![CDATA[ bestand(en) overschrijven mislukt.]]></Text>
+      </Control>
+      <Control ClassName="t_strSaveFail" ControlType ="11" >
+        <Text><![CDATA[ Opslaan mislukt, controleer je apparaat.]]></Text>
+      </Control>
+      <!--20120122 add-->
+      <Control ClassName="ReadBufferFailed" ControlType ="11" >
+        <Text><![CDATA[ Herstel van sommige bestanden is mislukt.]]></Text>
+      </Control>
+      <Control ClassName="WriteBufferFailed" ControlType ="11" >
+        <Text><![CDATA[ Herstel van sommige bestanden is mislukt.]]></Text>
+      </Control>
+	  <Control ClassName="scancomplete" ControlType ="11">
+        <Text><![CDATA[Scan voltooid!Als Quick Scans uw verloren bestanden niet kunt vinden, selecteer dan Deep Scan en probeer het opnieuw]]></Text>
+      </Control>
+	  
+      <!--右键菜单-->
+      <Control ClassName="m_pRightMenu" ControlType="6">
+        <Size Width="140"/>
+      </Control>
+      <Control ClassName="m_pRecoverHighlight" ControlType="11">
+        <Text><![CDATA[Herstel Geaccentueerd...]]></Text>
+        <Margins Left="0" Top="0" Width="140" Height="24"/>
+      </Control>
+      <Control ClassName="m_pRecoverChecked" ControlType="11">
+        <Text><![CDATA[Herstel Gemarkeerd...]]></Text>
+        <Margins Left="0" Top="24" Width="140" Height="24"/>
+      </Control>
+      <Control ClassName="m_pCheckHighlight" ControlType="11">
+        <Text><![CDATA[Herstel Geaccentueerd...]]></Text>
+        <Margins Left="0" Top="50" Width="140" Height="24"/>
+      </Control>
+      <Control ClassName="m_pUncheckHighlight" ControlType="11">
+        <Text><![CDATA[Haal markering bij Geaccentueerd weg...]]></Text>
+        <Margins Left="0" Top="74" Width="140" Height="24"/>
+      </Control>
+      <Control ClassName="m_pCheckAll" ControlType="11">
+        <Text><![CDATA[Markeer Alles]]></Text>
+        <Margins Left="0" Top="100" Width="140" Height="24"/>
+      </Control>
+      <Control ClassName="m_pUncheckAll" ControlType="11">
+        <Text><![CDATA[Haal markering bij Alles weg]]></Text>
+        <Margins Left="0" Top="124" Width="140" Height="24"/>
+      </Control>
+      <Control ClassName="m_pSmash" ControlType="11">
+        <Text><![CDATA[Overschrijf Geaccentueerd...]]></Text>
+        <Margins Left="0" Top="150" Width="140" Height="24"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CSelectPathDialog">
+      <Control ClassName="m_BtnCancel" ControlType="13">
+        <Text><![CDATA[Annuleer]]></Text>
+      </Control>
+      <Control ClassName="Btn_Ok" ControlType="13">
+        <Text><![CDATA[OK]]></Text>
+      </Control>
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[SelectEER een locatie voor herstel.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CUnRegisterHint">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Sluit"/>
+      </Control>
+      <Control ClassName="m_strHead" ControlType="11">
+        <Text><![CDATA[ om op te slaan.]]></Text>
+      </Control>
+      <Control ClassName="m_str1" ControlType="11">
+        <Text><![CDATA[Om je bestanden compleet te herstellen, registreer a.u.b. Wondershare]]></Text>
+      </Control>
+      <Control ClassName="m_str2" ControlType="11" >
+        <Text><![CDATA[Data Herstel. Als je geen registratiecode hebt, kun je]]></Text>
+      </Control>
+      <Control ClassName="m_str3" ControlType="11">
+        <Text><![CDATA[klikken op Nu Kopen om het te kopen.]]></Text>
+      </Control>
+      <Control ClassName="m_str4" ControlType="11">
+        <Text><![CDATA[Als je een aankoop doet, koop je niet alleen een product,]]></Text>
+      </Control>
+      <Control ClassName="m_str5" ControlType="11">
+        <Text><![CDATA[maar ook de service en ondersteuning van het product.]]></Text>
+      </Control>
+      <Control ClassName="m_strResult" ControlType="11">
+        <Text><![CDATA[http://www.wondershare.com/buy/buy-data-recovery.html]]></Text>
+      </Control>
+      <Control ClassName="m_pBtnBuy" ControlType="13">
+        <Text><![CDATA[Koop Nu]]></Text>
+      </Control>
+      <Control ClassName="m_pBtnRegister" ControlType="13">
+        <Text><![CDATA[Activeren]]></Text>
+      </Control>
+
+    </Dialog>
+    <Dialog ClassName="CRecoveryDialog" >
+      <Control ClassName="t_strNewName" ControlType="11">
+        <Text><![CDATA[Nieuwe Map]]></Text>
+      </Control>
+      <Control ClassName ="m_newFolderButton" ControlType="13">
+        <Text><![CDATA[New Folder]]></Text>
+      </Control>
+      <Control ClassName ="m_recoverButton" ControlType="13">
+        <Text><![CDATA[Herstellen]]></Text>
+      </Control>
+      <Control ClassName="m_lblTipText" ControlType="1">
+        <Text><![CDATA[Selecteer een pad om de herstelde bestanden op te slaan. Sla de herstelde data niet op naar het volume waar je ze verloren hebt.]]></Text>
+      </Control>
+      <Control ClassName="strSavePath" ControlType="11">
+        <Text><![CDATA[De opslagpad is hetzelfde als het bronvolume. Selecteer een ander volume of verbind een extern opslagapparaat om de herstelde data op te slaan.]]></Text>
+      </Control>
+	  <Control ClassName="strRecycleSave" ControlType="11">
+        <Text><![CDATA[Het is aan te raden de herstelde bestanden op te slaan op een externe schijf om te voorkomen dat bestanden worden overschreven, anders kan het herstel mislukken.]]></Text>
+      </Control>
+      <Control ClassName="strTipText" ControlType="11">
+        <Text><![CDATA[Selecteer een pad om de herstelde bestanden op te slaan:]]></Text>
+      </Control>
+      <Control ClassName="strEnough" ControlType="11">
+        <Text><![CDATA[Niet genoeg ruimte om de herstelde recovered data op te slaan. Selecteer een ander volume of verbind een extern opslagapparaat om de herstelde data op te slaan.]]></Text>
+      </Control>
+      <Control ClassName="strWaring" ControlType="11">
+        <Text><![CDATA[Opslaan van data op de bronpartitie zal de kans op een succesvol herstel verminderen. Toch data er op opslaan?]]></Text>
+      </Control>
+      <Control ClassName="t_lookIn" ControlType="11">
+        <Text><![CDATA[Zoek in]]></Text>
+      </Control>
+      <Control ClassName="t_fileName" ControlType="11">
+        <Text><![CDATA[Bestandnaam]]></Text>
+      </Control>
+      <Control ClassName="t_flitType" ControlType="11">
+        <Text><![CDATA[Bestanden van type]]></Text>
+      </Control>
+      <Control ClassName="t_title" ControlType="11">
+        <Text><![CDATA[Opslaan als]]></Text>
+      </Control>
+      <Control ClassName="t_saveButton" ControlType="11">
+        <Text><![CDATA[Opslaan]]></Text>
+      </Control>
+      <Control ClassName="t_cancelButton" ControlType="11">
+        <Text><![CDATA[Annuleren]]></Text>
+      </Control>
+      <Control ClassName="m_pDeskTop" ControlType="8">
+        <Text><![CDATA[ Bureaublad]]></Text>
+      </Control>
+      <Control ClassName="m_pDocument" ControlType="8">
+        <Text><![CDATA[        Mijn Documenten]]></Text>
+      </Control>
+      <Control ClassName="m_pComputer" ControlType="8">
+        <Text><![CDATA[        Mijn Computer]]></Text>
+      </Control>
+      <Control ClassName="o_lookIn" ControlType="11">
+        <Text><![CDATA[Zoek in]]></Text>
+      </Control>
+      <Control ClassName="o_fileName" ControlType="11">
+        <Text><![CDATA[Bestandnaam]]></Text>
+      </Control>
+      <Control ClassName="o_flitType" ControlType="11">
+        <Text><![CDATA[Bestanden van type]]></Text>
+      </Control>
+      <Control ClassName="o_title" ControlType="11">
+        <Text><![CDATA[Laad Resultaat Bestand]]></Text>
+      </Control>
+      <Control ClassName="o_saveButton" ControlType="11">
+        <Text><![CDATA[Open]]></Text>
+      </Control>
+      <Control ClassName="o_loadButton" ControlType="11">
+        <Text><![CDATA[Laad]]></Text>
+      </Control>
+      <Control ClassName="o_cancelButton" ControlType="11">
+        <Text><![CDATA[Cancel]]></Text>
+      </Control>
+      <Control ClassName="o_message" ControlType="11">
+        <Text><![CDATA[Voer de disk schijf in]]></Text>
+      </Control>
+      <Control ClassName="m_RenameText" ControlType="11">
+        <Text><![CDATA[De nieuwe naam bestaat al of de nieuwe naam verwijst naar een open bestand.]]></Text>
+      </Control>
+	  
+	  <Control ClassName="strPEWaring" ControlType="11">
+        <Text><![CDATA[Omdat je computer niet normaal kan herstarten, herstel je bestanden naar een externe schijf i.p.v. je harde schijf.]]></Text>
+      </Control>
+
+    </Dialog>
+    <Dialog ClassName ="CDataPublic">
+      <Control ClassName="strError" ControlType="11">
+        <Text><![CDATA[Wondershare Recoverit Herstel werkt nog!]]></Text>
+      </Control>
+      <Control ClassName="strWaring" ControlType="11">
+        <Text><![CDATA[Waarschuwing]]></Text>
+      </Control>
+      <Control ClassName="strWonderShare" ControlType="11">
+        <Text><![CDATA[Copyright © 2017 Wondershare. Alle rechten voorbehouden.]]></Text>
+      </Control>
+      <Control ClassName="checkWarmMsg" ControlType="11">
+        <Text><![CDATA[We hebben bemerkt dat je registratiecode regelmatig is geactiveerd. Momenteel kun je het nog gebruiken. Controleer de veiligheid van je informatie. We zullen het uitschakelen als het gebruikslimiet wordt overschreden.]]></Text>
+      </Control>
+      <Control ClassName="t_strWaringTitle" ControlType="11">
+        <Text><![CDATA[Je kunt slachtoffer zijn van software vervalsing]]></Text>
+      </Control>
+      <Control ClassName="checkQuitMsg" ControlType="11">
+        <Text><![CDATA[We hebben bemerkt dat het limiet van gebruik van de registratiecode is overschreden. Als je problemen hebt met de registratiecode, neem a.u.b. contact met ons op.]]></Text>
+      </Control>
+      <Control ClassName="t_strQuitTitle" ControlType="11">
+        <Text><![CDATA[Onjuiste registratiecode]]></Text>
+      </Control>
+      <Control ClassName="m_strArchive" ControlType="11">
+        <Text><![CDATA[Archief]]></Text>
+      </Control>
+      <Control ClassName="m_strAudio" ControlType="11">
+        <Text><![CDATA[Audio]]></Text>
+      </Control>
+      <Control ClassName="m_strDataBase" ControlType="11">
+        <Text><![CDATA[DataBase]]></Text>
+      </Control>
+      <Control ClassName="m_strDocument" ControlType="11">
+        <Text><![CDATA[Document]]></Text>
+      </Control>
+      <Control ClassName="m_strEmail" ControlType="11">
+        <Text><![CDATA[E-mail]]></Text>
+      </Control>
+      <Control ClassName="m_strGraphic" ControlType="11">
+        <Text><![CDATA[Grafisch]]></Text>
+      </Control>
+      <Control ClassName="m_strInternetWeb" ControlType="11">
+        <Text><![CDATA[Internet&amp;Web]]></Text>
+      </Control>
+      <Control ClassName="m_strMiscellaneous" ControlType="11">
+        <Text><![CDATA[Diversen]]></Text>
+      </Control>
+      <Control ClassName="m_strVideo" ControlType="11">
+        <Text><![CDATA[Video]]></Text>
+      </Control>
+      <Control ClassName="m_strNoExtension" ControlType="11">
+        <Text><![CDATA[Geen Uitbreiding]]></Text>
+      </Control>
+      <Control ClassName="strByte" ControlType="11">
+        <Text><![CDATA[ bytes]]></Text>
+      </Control>
+      <Control ClassName="strKB" ControlType="11">
+        <Text><![CDATA[ KB]]></Text>
+      </Control>
+      <Control ClassName="strMB" ControlType="11">
+        <Text><![CDATA[ MB]]></Text>
+      </Control>
+      <Control ClassName="strGB" ControlType="11">
+        <Text><![CDATA[ GB]]></Text>
+      </Control>
+     
+    </Dialog>
+    <Dialog ClassName="CFreeHint">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Sluit"/>
+      </Control>
+      <Control ClassName="m_pLblTitle1" ControlType="11">
+        <Text><![CDATA[ over om gratis te herstellen.]]></Text>
+      </Control>
+      <Control ClassName="m_pLblTitle2" ControlType="1">
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="35" Top="188" Width ="400" Height="20"/>
+      </Control>
+      <Control ClassName="m_pLblTitle3" ControlType="11">
+        <Text><![CDATA[Niet geregistreerde versie kan alleen herstellen.]]></Text>
+      </Control>
+      <Control ClassName="m_pLblTitle3_1" ControlType="11">
+        <Text><![CDATA[ data gratis. ]]></Text>
+      </Control>
+      <Control ClassName="m_pLblTitle4" ControlType="1">
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="35" Top="208" Width ="450" Height="20"/>
+      </Control>
+      <Control ClassName="m_pLblTitle5" ControlType="1">
+        <Text><![CDATA[<a href="0"><Font color="#0066cc">Upgrade</Font></a> als je meer wilt herstellen.]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="35" Top="232" Width ="600" Height="20"/>
+      </Control>
+      <Control ClassName="m_pSelectSize" ControlType="1">
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="192" Width ="400" Height="15"/>
+      </Control>
+      <Control ClassName="m_pLblTitle7" ControlType="11">
+        <Text><![CDATA[Geselecteerde bestandgrootte: ]]></Text>
+      </Control>
+      <Control ClassName="m_pLblTitle8" ControlType="11">
+        <Text><![CDATA[Alleen]]></Text>
+      </Control>
+      <Control ClassName="m_pLblTitle8_1" ControlType="11">
+        <Text><![CDATA[over om gratis te herstellen.]]></Text>
+      </Control>
+      <Control ClassName="m_pLblTitle9" ControlType="1">
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="215" Width ="400" Height="15"/>
+      </Control>
+      <Control ClassName="m_pLblTitle10" ControlType="1">
+        <Text><![CDATA[De geselecteerde bestandgrootte overschrijdt het maximum limiet. ]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="238" Width ="500" Height="20"/>
+      </Control>
+      <Control ClassName="m_pLblTitle5_1" ControlType="1">
+        <Text><![CDATA[<a href="0"><Font color="#0066cc">Upgrade</Font></a> als je wilt herstellen.]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="265" Width ="600" Height="20"/>
+      </Control>
+      <Control ClassName="m_pLblTitle11" ControlType="1">
+        <Text><![CDATA[Deel deze software met je vrienden om <Font color="#0066cc"></Font> gratis <Font color="#0066cc">100MB</Font> te krijgen.]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="35" Top="243" Width ="700" Height="20"/>
+      </Control>
+      <Control ClassName="m_pBtnBuy" ControlType="13">
+        <Text><![CDATA[Koop Nu]]></Text>
+        <Margins Left="372" Top="325" Width ="78" Height="28"/>
+      </Control>
+      <Control ClassName="m_pBtnTry" ControlType="13">
+        <Text><![CDATA[Gratis Probeerversie]]></Text>
+        <Margins Left="372" Top="325" Width ="78" Height="28"/>
+      </Control>
+      <Control ClassName="m_pBtnRegister" ControlType="13">
+        <Text><![CDATA[Activeren]]></Text>
+        <Margins Left="290" Top="325" Width ="78" Height="28"/>
+      </Control>
+      <Control ClassName="m_pBtnRegister_1" ControlType="13">
+        <Text><![CDATA[Activeren]]></Text>
+        <Margins Left="290" Top="325" Width ="78" Height="28"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CrecoveryTreeModel">
+      <Control ClassName="m_sDocumentItem" ControlType="10">
+        <Text><![CDATA[Mijn Documenten]]></Text>
+      </Control>
+      <Control ClassName="m_sDeskTopItem" ControlType="10">
+        <Text><![CDATA[Desktop]]></Text>
+      </Control>
+      <Control ClassName="m_sComputerItem" ControlType="10">
+        <Text><![CDATA[Mijn Computer]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CfilterResult">
+      <Control ClassName="m_lblTitle" ControlType="1">
+        <Text><![CDATA[Filter]]></Text>
+      </Control>
+      <Control ClassName="m_sizeCheckBox" ControlType="5">
+        <Text><![CDATA[Grootte]]></Text>
+      </Control>
+      <Control ClassName="m_sizeCombox" ControlType="4">
+        <Contents StringItems ="Meer dan, Minder dan" CurrentIndex="0"/>
+      </Control>
+      <Control ClassName="m_dateCheckBox" ControlType="5">
+        <Text><![CDATA[Datum]]></Text>
+      </Control>
+      <Control ClassName="m_dateCombox" ControlType="4">
+        <Contents StringItems ="Aanmaakdatum, Gewijzigde Datrum" CurrentIndex="0"/>
+      </Control>
+      <Control ClassName="m_labBetweenLabel" ControlType="1">
+        <Text><![CDATA[Tussen]]></Text>
+      </Control>
+      <Control ClassName="m_labAndLabel" ControlType="1">
+        <Text><![CDATA[En]]></Text>
+      </Control>
+      <Control ClassName="m_applyFilterBtn" ControlType="13">
+        <Text><![CDATA[Toepassen]]></Text>
+      </Control>
+      <Control ClassName="m_cancelBtn" ControlType="13">
+        <Text><![CDATA[Annuleren]]></Text>
+      </Control>
+      <Control ClassName="m_strErrorMin" ControlType ="11">
+        <Text><![CDATA[Minimum waarde kan niet leeg zijn. Type een nummer.]]></Text>
+      </Control>
+      <Control ClassName="m_strErrorMax" ControlType ="11">
+        <Text><![CDATA[Maximum waarde kan niet leeg zijn. Type een nummer.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomButton" >
+      <Control ClassName="m_StrStatus" ControlType ="11" LabState="Btn_Min">
+        <Text><![CDATA[Minimaliseren]]></Text>
+      </Control>
+      <Control ClassName="m_StrStatus" ControlType ="11" LabState="Btn_Close">
+        <Text><![CDATA[Sluiten]]></Text>
+      </Control>
+      <Control ClassName="m_StrStatus" ControlType ="11" LabState="Btn_Menu">
+        <Text><![CDATA[Menu]]></Text>
+      </Control>
+      <Control ClassName="m_StrStatus" ControlType ="11" LabState="Btn_Max">
+        <Text><![CDATA[Maximaliseren]]></Text>
+      </Control>
+      <Control ClassName="m_StrStatus" ControlType ="11" LabState="Btn_TwitterIcon">
+        <Text><![CDATA[Feedback]]></Text>
+      </Control>
+      <Control ClassName="m_StrStatus" ControlType ="11" LabState="Btn_FaceBookIcon">
+        <Text><![CDATA[Delen]]></Text>
+      </Control>
+      <Control ClassName="m_StrStatus" ControlType ="11" LabState="Btn_TwitterShare">
+        <Text><![CDATA[Volgen]]></Text>
+      </Control>
+      <Control ClassName="m_StrStatus" ControlType ="11" LabState="Btn_FaceBookShare">
+        <Text><![CDATA[Leuk Vinden]]></Text>
+      </Control>
+	  <Control ClassName="m_StrStatus" ControlType="11" LabState="Btn_BuyIcon">
+        <Text><![CDATA[Koop Nu]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CProgressDialog" >
+      <Control ClassName="m_stopButton" ControlType="13">
+        <Text><![CDATA[Stop]]></Text>
+      </Control>
+      <Control ClassName="strRecoverFilesNum" ControlType ="11">
+        <Text><![CDATA[Herstellen van bestanden: ]]></Text>
+      </Control>
+      <Control ClassName="strRemainTime" ControlType="11">
+        <Text><![CDATA[Resterende tijd:  ]]></Text>
+      </Control>
+      <Control ClassName="strSaveTitle" ControlType="11">
+        <Text><![CDATA[Opslaan, wacht a.u.b....]]></Text>
+      </Control>
+      <Control ClassName="strHead" ControlType="11">
+        <Text><![CDATA[Opslaan ]]></Text>
+      </Control>
+      <Control ClassName="strMid" ControlType="11">
+        <Text><![CDATA[ van ]]></Text>
+      </Control>
+      <Control ClassName="strTail" ControlType="11">
+        <Text><![CDATA[ schijf(ven)]]></Text>
+      </Control>
+      <Control ClassName="strStopTitle" ControlType="11">
+        <Text><![CDATA[Weet je zeker dat je wilt stoppen met het herstellen van bestanden?]]></Text>
+      </Control>
+      <Control ClassName="strSaveFiledTitle" ControlType="11">
+        <Text><![CDATA[De partitie waarop je data wilt opslaan is verwijderd. Het opslaan zal stoppen.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CShareDialog">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Sluit"/>
+      </Control>
+      <Control ClassName="m_strTitle" ControlType="1">
+        <Text><![CDATA[Gefelicieteerd]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="160" Top="50" Width ="420" Height="20"/>
+      </Control>
+      <Control ClassName="m_strContent_1" ControlType="11">
+        <Text><![CDATA[Gefeliciteerd! Bestand herstel is voltooid!]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="90" Width ="332" Height="20"/>
+      </Control>
+      <Control ClassName="m_strContent_2" ControlType="1">
+        <Text><![CDATA[Als je vindt dat onze software echt goed is voor je,]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="115" Width ="390" Height="20"/>
+      </Control>
+      <Control ClassName="m_strContent_3" ControlType="1">
+        <Text><![CDATA[post je ervaring op onze muur.]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="140" Width ="332" Height="20"/>
+      </Control>
+      <Control ClassName="m_strContent_4" ControlType="1">
+        <Text><![CDATA[Als onze software je niet tevreden kan stellen, geef ons feedback.]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="165" Width ="390" Height="20"/>
+      </Control>
+      <Control ClassName="m_strContent_5" ControlType="1">
+        <Text><![CDATA[We zullen ons best doen je beter van dienst te zijn.]]></Text>
+        <Font Bold = "0" PointSize = "10" R = "102" G = "103" B = "103"/>
+        <Margins Left="50" Top="190" Width ="390" Height="20"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="ThumbListModel">
+      <Control ClassName="t_errorMessage" ControlType="11">
+        <Text><![CDATA[  Geen voorbeeld beschikbaar]]></Text>
+      </Control>
+      <Control ClassName="t_defaultMessage" ControlType="11">
+        <Text><![CDATA[Processing]]></Text>
+      </Control>
+    </Dialog>
+	<Dialog ClassName="NewAddLanguage">
+	 <Control ClassName="m_winpebtton" ControlType="11">
+        <Text><![CDATA[Opstartbare media]]></Text>
+      </Control>
+	  <Control ClassName="m_japenese" ControlType="11">
+        <Text><![CDATA[ディスク]]></Text>
+		<!--<![CDATA[ XX GB free of  XX GB ]]>-->
+      </Control>
+	  <Control ClassName="m_reaserching" ControlType="11">
+        <Text><![CDATA[zoeken]]></Text>
+		<!--<![CDATA[ XX GB free of  XX GB ]]>-->
+      </Control>
+	  <Control ClassName="m_stopreaserch" ControlType="11">
+        <Text><![CDATA[Weet u zeker dat u het zoeken wilt stoppen?]]></Text>
+      </Control>
+	  	  <Control ClassName="m_cameback" ControlType="11">
+        <Text><![CDATA[Weet u zeker dat u terug wilt?]]></Text>
+      </Control>
+	  <Control ClassName="m_japenese" ControlType="11">
+        <Text><![CDATA[ディスク]]></Text>
+		<!--<![CDATA[ XX GB free of  XX GB ]]>-->
+      </Control>
+	  <Control ClassName="m_freesize" ControlType="11">
+        <Text><![CDATA[  vrij van  ]]></Text>
+		<!--<![CDATA[ XX GB free of  XX GB ]]>-->
+      </Control>
+	  <Control ClassName="m_document" ControlType="11">
+        <Text><![CDATA[ Documento]]></Text>
+      </Control>
+	  <Control ClassName="m_others" ControlType="1">
+        <Text><![CDATA[Ander]]></Text>
+      </Control>
+	   <Control ClassName="m_otherusful" ControlType="1">
+        <Text><![CDATA[Andere bruikbare data]]></Text>
+      </Control>
+	  <Control ClassName="m_selectfile" ControlType="11">
+        <Text><![CDATA[Selecteer tenminste een bestand om te scannen]]></Text>
+      </Control>
+	  <Control ClassName="m_selectlocation" ControlType="1">
+        <Text><![CDATA[Selecteer locatie]]></Text>
+      </Control>
+	  <Control ClassName="m_fileview" ControlType="13" >
+        <Text><![CDATA[Bestandweergave ]]></Text>
+      </Control>
+	  <Control ClassName="m_treeview" ControlType="13">
+        <Text><![CDATA[Boomweergave ]]></Text>
+      </Control>
+	  <Control ClassName="m_quickscan" ControlType ="1" >
+        <Text><![CDATA[Snelle Scan ]]></Text>
+      </Control>
+	  <Control ClassName="m_deepscan" ControlType ="1" >
+        <Text><![CDATA[Diepe Scan ]]></Text>
+      </Control>
+	  <Control ClassName="m_btndeepscan" ControlType ="13" >
+        <Text><![CDATA[Diepe Scan ]]></Text>
+      </Control>
+	  <Control ClassName ="m_check" ControlType="11">
+        <Text><![CDATA[Je kopie van de software is niet geregistreerd Koop een licentie om te genieten van alle voordelen van de geregistreerde versie]]></Text>
+      </Control>
+	  <Control ClassName="m_benefits" ControlType="11">
+        <Text><![CDATA[Belangrijkste Voordelen]]></Text>
+      </Control>
+      <Control ClassName ="m_trial" ControlType="11">
+        <Text><![CDATA[Trial ]]></Text>
+      </Control>
+      <Control ClassName="m_registered" ControlType="11">
+        <Text><![CDATA[Geregistreerd]]></Text>
+      </Control>
+      <Control ClassName="m_scan" ControlType="11">
+        <Text><![CDATA[Scan bestanden]]></Text>
+      </Control>
+	  <Control ClassName="m_previewfiles" ControlType="11">
+        <Text><![CDATA[Bekijk bestanden]]></Text>
+      </Control>
+	  <Control ClassName="m_recoverfiles" ControlType="11">
+        <Text><![CDATA[Herstel bestanden]]></Text>
+      </Control>
+	  <Control ClassName ="m_support" ControlType="11">
+        <Text><![CDATA[Technische Ondersteuning]]></Text>
+      </Control>
+	  <Control ClassName="m_register" ControlType="13">
+        <Text><![CDATA[Registreer]]></Text>
+      </Control>
+	  <Control ClassName="m_evaluate" ControlType="13">
+        <Text><![CDATA[Evaluatie]]></Text>
+      </Control>
+	  <Control ClassName="m_buy" ControlType="13">
+        <Text><![CDATA[Koop nu]]></Text>
+      </Control>
+	  <Control ClassName="m_scanresult" ControlType="11">
+        <Text><![CDATA[Wil je het project opslaan voor scanresultaat? ]]></Text>
+      </Control>
+	  <Control ClassName="m_SaveButton" ControlType="13">
+        <Text><![CDATA[Opslaan]]></Text>
+      </Control>
+	  <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Annuleren]]></Text>
+      </Control>
+	  <Control ClassName="t_fileName" ControlType="11">
+        <Text><![CDATA[Bestands naam]]></Text>
+      </Control>
+	  <Control ClassName="t_filePath" ControlType="11">
+        <Text><![CDATA[Bestandspad]]></Text>
+      </Control>
+	  <Control ClassName="o_title" ControlType="11">
+        <Text><![CDATA[ Laad Project Bestanden]]></Text>
+      </Control>
+	  <Control ClassName="m_fileerror" ControlType="11">
+        <Text><![CDATA[Bestandfout, importeer het projectbestand opnieuw]]></Text>
+      </Control>
+	  <Control ClassName="t_deepscan" ControlType ="11" >
+        <Text><![CDATA[<font color=#26324B>Kan de bestanden die  gebruiken niet vinden</font> <b><a href="#"><font color=#00AEE6>Diepe Scan</font></a></b>]]></Text>
+      </Control>
+	   <Control ClassName="t_deepscan_disabled" ControlType ="11" >
+        <Text><![CDATA[<font color=#CDCDCD>Kan de bestanden die  gebruiken niet vinden</font> <b><a href="#"><font color=#B2DFF8>Diepe Scan</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="t_deepscan_Hint" ControlType ="11" >
+        <Text><![CDATA[Als het niet gevonden kan worden, probeer dan "Deep Scan". Het kan meer bestanden vinden, maar het zal meer tijd doorbrengen.]]></Text>
+      </Control>
+	  <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecteer een partitie om bestanden te scannen:]]></Text>
+      </Control>
+	  <Control ClassName="m_lblname" ControlType="11">
+        <Text><![CDATA[Naam:]]></Text>
+      </Control>
+	  <Control ClassName="m_lalsize" ControlType="11">
+        <Text><![CDATA[Grootte:]]></Text>
+      </Control>
+	  <Control ClassName="m_lblpath" ControlType="11">
+        <Text><![CDATA[Path:]]></Text>
+      </Control>
+	  <Control ClassName="m_lblecrete" ControlType="11">
+        <Text><![CDATA[Aanmaakdatum:]]></Text>
+      </Control>
+	  <Control ClassName="m_lblmodefy" ControlType="11">
+        <Text><![CDATA[Aangepaste Datum:]]></Text>
+      </Control>
+	  <Control ClassName="m_lbstatue" ControlType="11">
+        <Text><![CDATA[Status:]]></Text>
+      </Control>
+	  <Control ClassName="m_btperview" ControlType="13">
+        <Text><![CDATA[Voorbeeld]]></Text>
+      </Control>
+	  <Control ClassName="m_cannotfind" ControlType="11">
+        <Text><![CDATA[Kan de bestanden die gebruiken niet vinden ]]></Text>
+      </Control>
+      <Control ClassName="m_alldata" ControlType="1">
+        <Text><![CDATA[Alle Bestandtypes]]></Text>
+      </Control>
+	  	  <Control ClassName="m_filelocation" ControlType="1">
+        <Text><![CDATA[Files Location]]></Text>
+      </Control>
+	   <Control ClassName="findmorepartition" ControlType ="1" >
+        <Text><![CDATA[<font color=#26324B>Geen partitie gevonden?</font> <b><a href="#"><font color=#00AEE6>Probeer het opnieuw</font></a></b>]]></Text>
+      </Control>
+	    <Control ClassName="m_pEnterButton" ControlType="1">
+        <Text><![CDATA[Maak een Bootable aan]]></Text>
+      </Control>
+	  <Control ClassName="EnterFrameHint" ControlType="11">
+        <Text><![CDATA[Maak een bootbare schijf aan om je data te herstellen als het Windows systeem niet kan starten.]]></Text>
+      </Control>
+	   <Control ClassName="HintText1" ControlType="11">
+        <Text><![CDATA[Je kopie van de software is niet geregistreerd, kies het plan dat je nodig hebt.]]></Text>
+      </Control>
+	  <Control ClassName="HintText2" ControlType="11">
+        <Text><![CDATA[recoverit]]></Text>
+      </Control>
+	  <Control ClassName="HintText3" ControlType="11">
+        <Text><![CDATA[Pro]]></Text>
+      </Control>
+	  <Control ClassName="MainWinPEText1" ControlType="11">
+        <Text><![CDATA[Harde Schijf Kopie]]></Text>
+      </Control>	  
+	  <Control ClassName="MainWinPEText2" ControlType="11">
+        <Text><![CDATA[Data Herstel]]></Text>
+      </Control>
+	  <Control ClassName="MainWinPEText3" ControlType="11">
+        <Text><![CDATA[Kopieer bestanden naar harde schijf]]></Text>
+      </Control>
+	   <Control ClassName="MainWinPEText4" ControlType="11">
+        <Text><![CDATA[Herstel verwijderde/verloren bestanden]]></Text>
+      </Control>
+    </Dialog>
+	<Dialog ClassName="Copydisk">
+	<Control ClassName="Copybtn" ControlType="13" >
+        <Text><![CDATA[Kopieer]]></Text>
+    </Control>
+	<Control ClassName="copysource" ControlType="1">
+        <Text><![CDATA[Bron]]></Text>
+    </Control>
+	<Control ClassName="copytarget" ControlType="1">
+        <Text><![CDATA[Doel]]></Text>
+    </Control>
+	<Control ClassName="copyselect" ControlType="1">
+        <Text><![CDATA[Selecteer een harde schijf]]></Text>
+    </Control>
+	<Control ClassName="copyoutrside" ControlType="1">
+        <Text><![CDATA[Verbind een usb drive]]></Text>
+    </Control>
+	<Control ClassName="copybrowser" ControlType="11">
+        <Text><![CDATA[Browser]]></Text>
+    </Control>
+	<Control ClassName="copyselectdir" ControlType="11">
+        <Text><![CDATA[Selecteer directory]]></Text>
+    </Control>
+	<Control ClassName="copychangedir" ControlType="11">
+        <Text><![CDATA[Verander map]]></Text>
+    </Control>
+	<Control ClassName="copydirectory" ControlType="11">
+        <Text><![CDATA[Selecteer de kopie directory]]></Text>
+    </Control>
+	<Control ClassName="copydesktop" ControlType="11">
+        <Text><![CDATA[Bureaublad]]></Text>
+    </Control>
+	<Control ClassName="copydocument" ControlType="11">
+        <Text><![CDATA[Mijn Document]]></Text>
+    </Control>
+	<Control ClassName="copycomputer" ControlType="11">
+        <Text><![CDATA[Mijn computer]]></Text>
+    </Control>
+	<Control ClassName="copycalculation" ControlType="1">
+        <Text><![CDATA[Schijf ruimte aan het berekenen]]></Text>
+    </Control>
+	<Control ClassName="copyspeed" ControlType="1">
+        <Text><![CDATA[Snelheid:]]></Text>
+    </Control>
+	<Control ClassName="copytime" ControlType="11">
+        <Text><![CDATA[Geschatte tijd: ]]></Text>
+    </Control>
+	<Control ClassName="copycomplete" ControlType="11">
+        <Text><![CDATA[Data kopie compleet!]]></Text>
+    </Control>
+	<Control ClassName="copyfailed" ControlType="11">
+        <Text><![CDATA[Kopie mislukt omdat enkele bestanden niet geopend kunnen worden.]]></Text>
+    </Control>
+	<Control ClassName="copystop" ControlType="11">
+        <Text><![CDATA[Aan het downloaden, wil je stoppen?]]></Text>
+    </Control>
+	<Control ClassName="copyfilesize" ControlType="1">
+        <Text><![CDATA[Bestandgrootte aan het berekenen]]></Text>
+    </Control>
+	<Control ClassName="copyhead" ControlType="11">
+        <Text><![CDATA[Het bestand dat je moet kopieren is ]]></Text>
+    </Control>
+	<Control ClassName="copytailed" ControlType="11">
+        <Text><![CDATA[, gebruik een schijf met meer ruimte.]]></Text>
+    </Control>
+	<Control ClassName="copynotwrite" ControlType="11">
+        <Text><![CDATA[Kan niet naar deze schijf schrijven, controleer je schijf.]]></Text>
+    </Control>
+	<Control ClassName="copychoice" ControlType="1">
+        <Text><![CDATA[Gekozen directory]]></Text>
+    </Control>
+	<Control ClassName="copycontinue" ControlType="13">
+        <Text><![CDATA[Ga verder]]></Text>
+    </Control>
+	<Control ClassName="copyDatacopy" ControlType="1">
+        <Text><![CDATA[Harde Schijf Data Kopie]]></Text>
+    </Control>
+	<Control ClassName="copyDatarecovery" ControlType="1">
+        <Text><![CDATA[Harde Schijf Data Herstel]]></Text>
+    </Control>
+	<Control ClassName="copydatatocopy" ControlType="1">
+        <Text><![CDATA[Selecteer data om te kopieren]]></Text>
+    </Control>
+	<Control ClassName="copydatacopyto" ControlType="1">
+        <Text><![CDATA[Selecteer kopieren naar]]></Text>
+    </Control>
+	<Control ClassName="copydestinationdisk" ControlType="1">
+        <Text><![CDATA[Selecteer een doelschijf:]]></Text>
+    </Control>
+	<Control ClassName="copyfreedisk" ControlType="11">
+        <Text><![CDATA[vrij]]></Text>
+    </Control>
+	<Control ClassName="copynotenoughspace" ControlType="11">
+        <Text><![CDATA[Niet genoeg ruimte. Selecteer a.u.b. een andere Harde Schijf of USB flash drive.]]></Text>
+    </Control>
+	<Control ClassName="copywriteprotect" ControlType="11">
+        <Text><![CDATA[De geselecteerde schijf is tegen schrijven beschermd. Selecteer een andere Harde Schijf of USB flash drive.]]></Text>
+    </Control>
+	<Control ClassName="copydatato" ControlType="11">
+        <Text><![CDATA[Kopieren data naar ]]></Text>
+    </Control>
+	<Control ClassName="copystopcopy" ControlType="11">
+        <Text><![CDATA[Weet je zeker dat je wilt stoppen met het kopieren van data?]]></Text>
+    </Control>
+	<Control ClassName="copydeviceremoved" ControlType="11">
+        <Text><![CDATA[ is verwijderd!]]></Text>
+    </Control>
+	</Dialog>
+		<Dialog ClassName="Bootable">
+	<Control ClassName="bootregisterneedpaln" ControlType ="1" >
+        <Text><![CDATA[Je kopie van de software is niet geregistreerd, kies het plan dat je nodig hebt.]]></Text>
+    </Control>
+	<Control ClassName="bootBasic" ControlType ="1" >
+        <Text><![CDATA[Data Recovery]]></Text>
+    </Control>
+	<Control ClassName="bootPro" ControlType ="1" >
+        <Text><![CDATA[Data Recovery Pro]]></Text>
+    </Control>
+	<Control ClassName="bootcreateboot" ControlType ="1" >
+        <Text><![CDATA[Maak een bootbare schijf aan om je data te herstellen als het Windows systeem niet kan starten.]]></Text>
+    </Control>
+	<Control ClassName="bootStart" ControlType ="13" >
+        <Text><![CDATA[Start]]></Text>
+    </Control>
+	<Control ClassName="bootselectmode" ControlType ="1" >
+        <Text><![CDATA[Selecteer een mode om een bootbare schijf aan te maken]]></Text>
+    </Control>
+	<Control ClassName="bootcreateusb" ControlType ="1" >
+        <Text><![CDATA[Maak een USB bootbare schijf aan]]></Text>
+    </Control>
+	<Control ClassName="bootcreateusbdisk" ControlType ="1" >
+        <Text><![CDATA[Verbind een USB flash drive]]></Text>
+    </Control>
+	<Control ClassName="bootcreate" ControlType ="13" >
+        <Text><![CDATA[creëer]]></Text>
+    </Control>
+	<Control ClassName="bootcreatedvd" ControlType ="1" >
+        <Text><![CDATA[Maak een CD/DVD bootbare schijf aan]]></Text>
+    </Control>
+	<Control ClassName="bootnotsupport" ControlType ="1" >
+        <Text><![CDATA[Externe schijf wordt niet ondersteund, breng een USB flash drive in.]]></Text>
+    </Control>
+	<Control ClassName="bootcheck" ControlType ="1" >
+        <Text><![CDATA[Aan het controleren...]]></Text>
+    </Control>
+	<Control ClassName="bootformatdisk" ControlType ="11" >
+        <Text><![CDATA[De operatie zal je USB flash drive formatteren, we raden je aan je belangrijke  data te back-uppen en de operatie opnieuw uit te voeren. Weet je zeker dat je deze schijf wilt formatteren?]]></Text>
+    </Control>
+	<Control ClassName="bootwriteprotected" ControlType ="11" >
+        <Text><![CDATA[Formatteren mislukt, je schijf is beschermd.]]></Text>
+    </Control>
+		<Control ClassName="bootusbused" ControlType ="11" >
+        <Text><![CDATA[Formatteren mislukt, je schijf is gebruikt.]]></Text>
+    </Control>
+	<Control ClassName="bootunknowreason" ControlType ="11" >
+        <Text><![CDATA[Formatteren mislukt door een onbekende reden, gebruik een andere USB flash drive.]]></Text>
+    </Control>
+	<Control ClassName="bootformatdevicerm" ControlType ="11" >
+        <Text><![CDATA[Geformatteerd apparaat is verwijderd.]]></Text>
+    </Control>
+		<Control ClassName="bootretry" ControlType ="13" >
+        <Text><![CDATA[Probeer opnieuw]]></Text>
+    </Control>
+		<Control ClassName="bootdevicerm" ControlType ="11" >
+        <Text><![CDATA[Apparaat is verwijderd.]]></Text>
+    </Control>
+	<Control ClassName="bootDvdnotready" ControlType ="11" >
+        <Text><![CDATA[De DVD/CD drive is niet klaar, controleer het a.u.b.]]></Text>
+    </Control>
+	<Control ClassName="bootinsertblankdvd" ControlType ="11" >
+        <Text><![CDATA[breng een lege DVD/CD in of DVD/CD kan overschreven zijn.]]></Text>
+    </Control>
+	<Control ClassName="bootloading" ControlType ="1" >
+        <Text><![CDATA[Aan het downloaden]]></Text>
+    </Control>
+	<Control ClassName="bootloadfailed" ControlType ="11" >
+        <Text><![CDATA[Download mislukt! ]]></Text>
+    </Control>
+	<Control ClassName="bootcheckconnect" ControlType ="11" >
+        <Text><![CDATA[Controleer je netwerk verbinding.]]></Text>
+    </Control>
+	<Control ClassName="booterasedvd" ControlType ="11" >
+        <Text><![CDATA[De operatie zal je DVD/CD wissen, weet je zeker dat je deze schijf wilt wissen?]]></Text>
+    </Control>
+	<Control ClassName="bootformat" ControlType ="1" >
+        <Text><![CDATA[Formatteren]]></Text>
+    </Control>
+	<Control ClassName="bootcreatecomplete" ControlType ="1" >
+        <Text><![CDATA[Aanmaak voltooid.]]></Text>
+    </Control>
+	<Control ClassName="bootcreatefailed" ControlType ="1" >
+        <Text><![CDATA[Aanmaak mislukt.]]></Text>
+    </Control>
+
+	<Control ClassName="bootwritecomplete" ControlType ="1" >
+        <Text><![CDATA[Overschrijven voltooid]]></Text>
+    </Control>
+	<Control ClassName="bootwritefailed" ControlType ="11" >
+        <Text><![CDATA[Overschrijven mislukt]]></Text>
+    </Control>
+		<Control ClassName="bootnext" ControlType ="1" >
+        <Text><![CDATA[volgende stap]]></Text>
+    </Control>
+		<Control ClassName="bootchangebios" ControlType ="1" >
+        <Text><![CDATA[1：verander de BIOS boot volgorde zodat het USB apparaat eerst geboot wordt]]></Text>
+    </Control>
+		<Control ClassName="bootattach" ControlType ="1" >
+        <Text><![CDATA[2：Verbind het USB apparaat met je computer op beschikbare poort]]></Text>
+    </Control>
+	<Control ClassName="bootrestart" ControlType ="1" >
+        <Text><![CDATA[3：Herstart je computer]]></Text>
+    </Control>
+	<Control ClassName="bootviewguide" ControlType ="1" >
+        <Text><![CDATA[<b><a href="#"><font color=#00AEE6>Bekijk Gids</font></a></b>]]></Text>
+    </Control>
+	<Control ClassName="bootcontact" ControlType ="3" >
+        <Text><![CDATA[Contacteer ons]]></Text>
+    </Control>
+	<Control ClassName="bootcreating" ControlType ="1" >
+        <Text><![CDATA[Aanmaken...]]></Text>
+    </Control>
+	<Control ClassName="bootwriting" ControlType ="1" >
+        <Text><![CDATA[Overwriting]]></Text>
+    </Control>
+	<Control ClassName="bootstoploading" ControlType ="11" >
+        <Text><![CDATA[Aan het downloaden, wil je stoppen?]]></Text>
+    </Control>
+	<Control ClassName="bootsBurncomplete" ControlType ="1" >
+        <Text><![CDATA[Opstartbare CD / DVD voltooid!]]></Text>
+    </Control>
+	<Control ClassName="bootburnfailed" ControlType ="1" >
+        <Text><![CDATA[Branden mislukt]]></Text>
+    </Control>
+	<Control ClassName="bootinsertdvd" ControlType ="1" >
+        <Text><![CDATA[Breng een DVD of CD in]]></Text>
+    </Control>
+	<Control ClassName="bootInvalid" ControlType ="11" >
+        <Text><![CDATA[Ongeldig apparaat]]></Text>
+    </Control>
+	<Control ClassName="bootcannotavaliable" ControlType ="11" >
+        <Text><![CDATA[We kunnen geen beschikbaar DVD/CD app vinden, wil je verder gaan?]]></Text>
+    </Control>
+	<Control ClassName="bootformatnow" ControlType ="13" >
+        <Text><![CDATA[Nu formatteren]]></Text>
+    </Control>
+	<Control ClassName="bootfailedgetdvd" ControlType ="11" >
+        <Text><![CDATA[Failed to get DVD information]]></Text>
+    </Control>
+	<Control ClassName="bootDvdnotenough" ControlType ="11" >
+        <Text><![CDATA[DVD/CD ruimte is niet voldoende, breng meer dan 250 MB DVD/CD in a.u.b.]]></Text>
+    </Control>
+	<Control ClassName="bootcantgetspace" ControlType ="11" >
+        <Text><![CDATA[Krijg geen ruimte voor de DVD/CD, zorg dat de DVD/CD meer is dan 250 MB]]></Text>
+    </Control>
+	<Control ClassName="bootBurning" ControlType ="1" >
+        <Text><![CDATA[Branden]]></Text>
+    </Control>
+	<Control ClassName="bootdvdchangebios" ControlType ="1" >
+        <Text><![CDATA[1：de opstartvolgorde van het BIOS wijzigen, zodat de CD-ROM als eerste wordt opgestart.]]></Text>
+    </Control>
+	<Control ClassName="bootdvdtattach" ControlType ="1" >
+        <Text><![CDATA[2：plaats een dvd / cd in uw computer]]></Text>
+    </Control>
+	<Control ClassName="bootdvdrestart" ControlType ="1" >
+        <Text><![CDATA[3：Herstart je computer]]></Text>
+    </Control>
+	<Control ClassName="bootlblsuccess" ControlType="11">
+        <Text><![CDATA[Bootable Toolkit is geregistreerd!]]></Text>
+     </Control>
+	  <Control ClassName="bootBootableDrive" ControlType="1">
+        <Text><![CDATA[Bootbare Schijf:]]></Text>
+     </Control>
+	 <Control ClassName="bootersewarning" ControlType="1">
+        <Text><![CDATA[Formatteren zal alle data wissen op de geselecteerde schijf]]></Text>
+     </Control>
+	 <Control ClassName="bootselectusb" ControlType="1">
+        <Text><![CDATA[Selecteer een USB flash drive]]></Text>
+     </Control>
+	 <Control ClassName="bootDownloadware" ControlType="1">
+        <Text><![CDATA[Download firmware]]></Text>
+     </Control>
+	 <Control ClassName="bootFormatusbflashdrive" ControlType="1">
+        <Text><![CDATA[Formatteer USB flash drive]]></Text>
+     </Control>
+	 <Control ClassName="bootnewCompleted" ControlType="1">
+        <Text><![CDATA[Compleet]]></Text>
+     </Control>
+	 <Control ClassName="bootloadwaiting" ControlType="1">
+        <Text><![CDATA[Downloaden van firmware, wacht a.u.b.…]]></Text>
+     </Control>
+	  <Control ClassName="bootFormatingflashdrive" ControlType="1">
+        <Text><![CDATA[Formatteren van USB flash drive...]]></Text>
+     </Control>	 
+	 <Control ClassName="bootFormatingDvddrive" ControlType="1">
+        <Text><![CDATA[Formatteren van de CD/DVD...]]></Text>
+     </Control>
+	 <Control ClassName="bootcreatingboot" ControlType="1">
+        <Text><![CDATA[Aanmaken Bootable, verwijder de USB flash drive niet…]]></Text>
+     </Control>	 
+	 <Control ClassName="bootBurningboot" ControlType="1">
+        <Text><![CDATA[Aanmaken Opstartbare drive, werp de CD/DVD niet uit…]]></Text>
+     </Control>
+	 <Control ClassName="bootdrivecompleted" ControlType="1">
+        <Text><![CDATA[Bootable USB flash drive compleet!]]></Text>
+     </Control>
+	 	 <Control ClassName="bootselectDvd" ControlType="1">
+        <Text><![CDATA[selecteer een DVD/CD drive]]></Text>
+     </Control>
+	  <Control ClassName="bootFormatdvdflashdrive" ControlType="1">
+        <Text><![CDATA[Formatteren CD/DVD]]></Text>
+     </Control>
+	</Dialog>
+  </Language>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

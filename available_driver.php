@@ -3,6 +3,78 @@ include('config.php');
 include('server.php');
 //   session_start();
 
+if (isset($_SESSION['bookstart'])) {
+    $id=$_SESSION['driverid'];
+    $bookdate = $_SESSION['bookstart'];
+    $usrid = $_SESSION['userid'];
+    $description = $_SESSION['description'];
+    $duration =$_SESSION['bookend'];
+    $total_cost =$_SESSION['totalcost'];
+    $date_now = date("Y-m-d h:i:s"); // this format is string comparable
+
+    $sql = "SELECT * FROM personal_driver.driver WHERE id = '$id' ";
+    $results = mysqli_query($db, $sql);
+
+    $query = "SELECT * FROM personal_driver.user WHERE id = '$id'";
+    $result = mysqli_query($db, $query);
+            if (mysqli_num_rows($results) == 1) {
+              $rowresult=mysqli_fetch_assoc($result);
+
+              $to = $rowresult['email']; // replace this mail with yours
+              $who = $_SESSION['username'];
+              $subject = "Client Booked Your Services";
+              $msg = "booked your services from";
+              $email= $_SESSION['email'];
+              $phone= $_SESSION['phone'];
+          		$headers = 'MIME-Version: 1.0' . "\r\n";
+          		$headers .= "From: " . $_SESSION['email'] . "\r\n"; // Sender's E-mail
+              $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+              $parameters = "";
+              
+              echo "<script>alert('code running trying to send email to $to');</script>";
+
+              $message = "$who $msg $bookdate to $duration \n\n
+              Kindly contact them on $phone or via their Email: $email";
+
+          		if (mail($to, $subject, $message, $headers))
+          		{
+                echo "<script>alert('Driver is notified');
+                </script>";
+            
+              // filling the user table
+              $query="INSERT INTO personal_driver.transaction (bookdate, userid, driverid, descrption, duration, total_cost)VALUES ('$bookdate', '$usrid', '$id', '$description', '$duration', '$total_cost') ";
+      
+              // mysqli_query($db, $query);
+              if(mysqli_query($db, $query)){
+                echo "Records added successfully.";
+            } else{
+                echo "ERROR: Could not able to execute $query. " . mysqli_error($db);
+            }
+
+              if ($date_now == $bookdate){
+                // update driver availabilty
+                $sql = "UPDATE driver SET driver.availability='booked' WHERE id='$id'";
+
+                if (mysqli_query($db, $sql)) {
+                    echo "Record updated successfully";
+                } else {
+                    echo "Error updating record: " . mysqli_error($db);
+                }
+              }
+            
+            // header('location: available_driver.php');
+            echo "<script>
+            // alert('Transaction successfully recorded.');
+            </script>";
+          }else{
+            echo "<script>alert('Email doesn't exist');
+            window.location.href='available_driver.php';
+                </script>";
+          }
+            }
+}
+
+
 
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
@@ -36,10 +108,10 @@ if($query->rowCount() > 0){
         // $booking_end = date('Y-m-d h:i:s', strtotime(str_replace('-', '/', $booking_end)));
 
         // if($currentDateTime >= $booking_start && $currentDateTime < $booking_end ){
-            $sql = "UPDATE driver SET driver.availability='booked' WHERE id='$b_driver' ";
+        $sql = "UPDATE driver SET driver.availability='booked' WHERE driver.id='$b_driver' ";
 
           if (mysqli_query($db, $sql)) {
-            //   echo "Record updated successfully";
+              echo "Driver Booking Time arrived";
           } else { echo "Error updating record: " . mysqli_error($db);}
 
         // }else{
@@ -154,7 +226,7 @@ setTimeout('location.reload(true)', t);
 
                                 <div class="book_btn d-none d-lg-block">
                                     <form method="post" action="available_driver.php">
-                                        <a class="boxed-btn3-line" href="available_driver.php?logout='1'"> Log Out <?php $arr = explode(' ',trim($_SESSION['username'])); echo $arr[0]; ?></a>
+                                        <a class="boxed-btn3-line" href="available_driver.php?logout='1'"> Log Out <?php $arr = explode(' ',trim($_SESSION['username'])); echo $arr[0];; ?></a>
                                     </form> 
                                 </div>
                             </div>
@@ -450,9 +522,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
             </div>
         </div>
-    </form>
-
-    <?php echo '<meta http-equiv="refresh" content="0; URL=available_driver.php" />'; ?>
+    </form> -->
     <!-- End of driver Modal -->
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>

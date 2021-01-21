@@ -23,8 +23,6 @@ $image = "";
 $rows="";
 $uid="";
 
-
-
 $drivingLicenseNum = "";
 $licenseExpiryYear = "";
 $allowedYears = 18;
@@ -317,7 +315,7 @@ if (isset($_POST['bookdriver'])) {
           </script>";
         }
         else{  
-          $sql = "SELECT * FROM personal_driver.driver WHERE id = '$id' ";
+          $sql = "SELECT driver.cost FROM personal_driver.driver WHERE id = '$id' ";
           $results = mysqli_query($db, $sql);
           $row=mysqli_fetch_assoc($results);
           $hourcost = $row['cost'];
@@ -331,74 +329,33 @@ if (isset($_POST['bookdriver'])) {
           
           // Finally, register driver if there are no errors in the form
           if (count($errors) == 0) { 
-
-            $_SESSION['bookstart'] = $bookdate;
-            $_SESSION['bookend'] = $duration;
-            $_SESSION['description'] = $description;
-            $_SESSION['driverid'] = $id;
-            $_SESSION['totalcost'] = $total_cost;
-
-            header('location: https://flutterwave.com/pay/eoqpftvyjnnz');
             
-
-          //   $query = "SELECT * FROM personal_driver.user WHERE id = '$id'";
-          //   $result = mysqli_query($db, $query);
-          //   if (mysqli_num_rows($results) == 1) {
-          //     $rowresult=mysqli_fetch_assoc($result);
-
-          //     $to = $rowresult['email']; // replace this mail with yours
-          //     $who = $_SESSION['username'];
-          //     $subject = "Client Booked Your Services";
-          //     $msg = "booked your services from";
-          //     $email= $_SESSION['email'];
-          //     $phone= $_SESSION['phone'];
-          // 		$headers = 'MIME-Version: 1.0' . "\r\n";
-          // 		$headers .= "From: " . $_SESSION['email'] . "\r\n"; // Sender's E-mail
-          //     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-          //     $parameters = "";
-              
-          //     echo "<script>alert('code running trying to send email to $to');</script>";
-
-          //     $message = "$who $msg $bookdate to $duration \n\n
-          //     Kindly contact them on $phone or via their Email: $email";
-
-          // 		if (mail($to, $subject, $message, $headers))
-          // 		{
-          //       echo "<script>alert('Driver is notified');
-          //       </script>";
-            
-          //     // filling the user table
-          //     $query="INSERT INTO personal_driver.transaction (bookdate, userid, driverid, descrption, duration, total_cost)VALUES ('$bookdate', '$usrid', '$id', '$description', '$duration', '$total_cost') ";
+              // filling the user table
+              $query="INSERT INTO personal_driver.transaction (bookdate, userid, driverid, descrption, duration, total_cost)VALUES ('$bookdate', '$usrid', '$id', '$description', '$duration', '$total_cost') ";
       
-          //     // mysqli_query($db, $query);
-          //     if(mysqli_query($db, $query)){
-          //       echo "Records added successfully.";
-          //   } else{
-          //       echo "ERROR: Could not able to execute $query. " . mysqli_error($db);
-          //   }
+              // mysqli_query($db, $query);
+              if(mysqli_query($db, $query)){
+                echo "Records added successfully.";
+            } else{
+                echo "ERROR: Could not able to execute $query. " . mysqli_error($db);
+            }
 
-          //     if ($date_now == $bookdate){
-          //       // update driver availabilty
-          //       $sql = "UPDATE driver SET driver.availability='booked' WHERE id='$id'";
+              if ($date_now == $bookdate){
+                // update driver availabilty
+                $sql = "UPDATE driver SET driver.availability='booked' WHERE id='$id'";
 
-          //       if (mysqli_query($db, $sql)) {
-          //           echo "Record updated successfully";
-          //       } else {
-          //           echo "Error updating record: " . mysqli_error($db);
-          //       }
-          //     }
+                if (mysqli_query($db, $sql)) {
+                    echo "Record updated successfully";
+                } else {
+                    echo "Error updating record: " . mysqli_error($db);
+                }
+              }
             
-          //   // header('location: available_driver.php');
-          //   echo "<script>
-          //   // alert('Transaction successfully recorded.');
-          //   window.location.href='available_driver.php';
-          //   </script>";
-          // }else{
-          //   echo "<script>alert('Email doesn't exist');
-          //   window.location.href='available_driver.php';
-          //       </script>";
-          // }
-          //   }
+            // header('location: available_driver.php');
+            echo "<script>
+            alert('Transaction successfully recorded.');
+            window.location.href='available_driver.php';
+            </script>";
           } 
           
         }

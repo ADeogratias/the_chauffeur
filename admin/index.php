@@ -441,7 +441,10 @@ if (isset($_POST['updateUser'])) {
 			<section id="booking-details">
 				<div id="printableArea">
 				<div class="content-header" >
-					<h1>All Booking Details</h1>
+                                <a href="index.php">
+                                    <img src="../img/logo.png" alt="">
+                                </a>
+					<h1>All Customers and Drivers Booking Details Of the Chauffeur </h1>
 				</div>
 				<h2 class="title">Bookings</h2>
 

@@ -1,0 +1,1052 @@
+<Language language="Netherland(Nederlands)">
+ <Default>
+	<Font From="Open Sans" To="Tahoma" FailTo="Arial" />
+  </Default>
+    <Dialog ClassName="Recoverit">
+	 <Control ClassName="RecycleRemoveDesc" ControlType="11">
+      <Text><![CDATA[%1 is verwijderd, sluit het op de computer aan en probeer het opnieuw.]]></Text>
+    </Control>
+	<Control ClassName="PauseBeforeRecover" ControlType="11">
+      <Text><![CDATA[Pauzeer of stop het scannen voordat u gegevens herstelt.]]></Text>
+    </Control>
+	<Control ClassName="UnBitLockerDesc" ControlType="11">
+      <Text><![CDATA[De geselecteerde schijf is vergrendeld door Windows BitLocker. Verwijder de BitLocker en probeer het opnieuw.]]></Text>
+    </Control>	
+	<Control ClassName="ShowAllFiles" ControlType="11">
+      <Text><![CDATA[Laat alle bestanden zien]]></Text>
+    </Control>	
+	<Control ClassName="OnlyDeletedFiles" ControlType="11">
+      <Text><![CDATA[Laat alleen verwijderde bestanden zien]]></Text>
+    </Control> 
+	<Control ClassName="AllFilesTypes" ControlType="11">
+      <Text><![CDATA[Alle bestandstypes]]></Text>
+    </Control>	
+	<Control ClassName="ShowDeletedFiles" ControlType="11">
+      <Text><![CDATA[Laat verwijderde bestanden zien]]></Text>
+    </Control>
+	<Control ClassName="MulItemSelected" ControlType="11">
+      <Text><![CDATA[%1 bestandstypes geselecteerd]]></Text>
+    </Control>	
+	<Control ClassName="RecoverRemoveHint" ControlType="11">
+      <Text><![CDATA[%1 bestand(en) herstel mislukt omdat de %2 is verwijderd.]]></Text>
+    </Control>	
+	<Control ClassName="BitLockerDesc" ControlType="11">
+      <Text><![CDATA[De geselecteerde schijf is vergrendeld door Windows BitLocker, ontgrendel het en probeer opnieuw.]]></Text>
+    </Control>
+	<Control ClassName="BitLockerLink" ControlType="11">
+      <Text><![CDATA[<a href="#"><font color=#00AEE6>Hoe ontgrendelen?</font></a>]]></Text>
+    </Control>	
+	 <Control ClassName="RecoverFat32" ControlType="11">
+        <Text><![CDATA[Een enkel bestand groter dan 4 GB kan niet worden hersteld vanwege de beperkingen van het FAT32-bestandssysteem. U kunt het terugzetten op andere typen partities.]]></Text>
+      </Control>	
+	 <Control ClassName="DateTimeOverLimit" ControlType="11">
+        <Text><![CDATA[Het programma heeft gedetecteerd dat je account de tijdlimiet heeft overschreden. Als je het nog wilt gebruiken, neem dan a.u.b. contact met ons op.]]></Text>
+      </Control>
+	 <Control ClassName="DiskFeedback" ControlType="1">
+        <Text><![CDATA[<font color=#26324B>Kunt u uw station of apparaat niet vinden? </font><b><a href="#"><font color=#00AEE6>Terug naar ons.</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="lblTipText" ControlType="1">
+        <Text><![CDATA[We zullen uw computeromgeving controleren en het logbestand toevoegen om dit probleem verder te controleren en zo snel mogelijk te verhelpen.]]></Text>
+      </Control>
+	  <Control ClassName="lblTipText_2" ControlType="1">
+        <Text><![CDATA[E-mail:]]></Text>
+      </Control>
+	  <Control ClassName="lblTipText_3" ControlType="1">
+        <Text><![CDATA[Inhoud:]]></Text>
+      </Control>	  
+	  <Control ClassName="ContextPlan" ControlType="11">
+        <Text><![CDATA[Kan mijn schijf niet detecteren.]]></Text>
+      </Control>	  
+	  <Control ClassName="lblTipText_5" ControlType="1">
+        <Text><![CDATA[Voeg het logbestand toe aan verdere controle.]]></Text>
+      </Control>
+	  <Control ClassName="lblTipText_4" ControlType="1">
+        <Text><![CDATA[Bedankt voor uw feedback om ons te helpen het product beter te maken.]]></Text>
+      </Control>
+	   <Control ClassName="btnSubmit" ControlType="11">
+        <Text><![CDATA[voorleggen]]></Text>
+      </Control>
+	<Control ClassName ="m_free" ControlType="11">
+        <Text><![CDATA[Free]]></Text>
+      </Control>
+	  <Control ClassName ="m_Ultimate" ControlType="11">
+        <Text><![CDATA[Ultimate]]></Text>
+      </Control>
+	  <Control ClassName ="m_freeDesc" ControlType="11">
+        <Text><![CDATA[Herstel %1 bestand]]></Text>
+      </Control>
+	  <Control ClassName ="m_stillrecover" ControlType="11">
+        <Text><![CDATA[Je kunt nog %1 bestanden herstellen met de gratis versie.]]></Text>
+      </Control>
+	  <Control ClassName ="m_recoverSelected" ControlType="11">
+        <Text><![CDATA[%1 bestanden nu geselecteerd.]]></Text>
+      </Control>
+	  <Control ClassName ="lblFreeDesc" ControlType="11">
+        <Text><![CDATA[Upgrade naar de Pro of Ultimate versie om van alle voordelen te genieten.]]></Text>
+      </Control>
+	  <Control ClassName ="lblFreeWarning" ControlType="11">
+        <Text><![CDATA[De grootte van het geselecteerde bestand is groter dan de beschikbare grootte.]]></Text>
+      </Control>	  
+	  <Control ClassName="m_Evalute" ControlType="11">
+        <Text><![CDATA[Evaluatie]]></Text>        
+      </Control>
+	  <Control ClassName="FreeHintDialogText2" ControlType="11">
+        <Text><![CDATA[Ongelimiteerd herstel bestandsgrootte]]></Text>        
+      </Control>
+	  <Control ClassName="IsAdmin" ControlType="11">
+        <Text><![CDATA[U moet beheerdersrechten geven om dit programma uit te voeren.]]></Text>
+      </Control>
+	  <Control ClassName="Week1" ControlType="11">
+        <Text><![CDATA[ma]]></Text>
+      </Control>
+	  <Control ClassName="Week2" ControlType="11">
+        <Text><![CDATA[di]]></Text>
+      </Control>
+	  <Control ClassName="Week3" ControlType="11">
+        <Text><![CDATA[wo]]></Text>
+      </Control>
+	  <Control ClassName="Week4" ControlType="11">
+        <Text><![CDATA[do]]></Text>
+      </Control>
+	  <Control ClassName="Week5" ControlType="11">
+        <Text><![CDATA[vr]]></Text>
+      </Control>
+	  <Control ClassName="Week6" ControlType="11">
+        <Text><![CDATA[za]]></Text>
+      </Control>
+	  <Control ClassName="Week7" ControlType="11">
+        <Text><![CDATA[zo]]></Text>
+      </Control>	  
+	  <Control ClassName="Mon1" ControlType="11">
+        <Text><![CDATA[Januari]]></Text>
+      </Control>
+	  <Control ClassName="Mon2" ControlType="11">
+        <Text><![CDATA[Februari]]></Text>
+      </Control>
+	  <Control ClassName="Mon3" ControlType="11">
+        <Text><![CDATA[Maart]]></Text>
+      </Control>
+	  <Control ClassName="Mon4" ControlType="11">
+        <Text><![CDATA[April]]></Text>
+      </Control>
+	  <Control ClassName="Mon5" ControlType="11">
+        <Text><![CDATA[Mei]]></Text>
+      </Control>
+	  <Control ClassName="Mon6" ControlType="11">
+        <Text><![CDATA[Juni]]></Text>
+      </Control>
+	  <Control ClassName="Mon7" ControlType="11">
+        <Text><![CDATA[Juli]]></Text>
+      </Control>
+	  <Control ClassName="Mon8" ControlType="11">
+        <Text><![CDATA[Augustus]]></Text>
+      </Control>
+	  <Control ClassName="Mon9" ControlType="11">
+        <Text><![CDATA[September]]></Text>
+      </Control>
+	  <Control ClassName="Mon10" ControlType="11">
+        <Text><![CDATA[Oktober]]></Text>
+      </Control>
+	  <Control ClassName="Mon11" ControlType="11">
+        <Text><![CDATA[November]]></Text>
+      </Control>
+	  <Control ClassName="Mon12" ControlType="11">
+        <Text><![CDATA[December]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDesc" ControlType="1">
+        <Text><![CDATA[Selecteer a.u.b. een dataverlies scenario]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDrFone" ControlType="1">
+        <Text><![CDATA[<font color=#26324B>Om data te herstellem op Android/iOS, ga naar </font><b><a href="#"><font color=#00AEE6>dr.fone</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePor" ControlType="1">
+        <Text><![CDATA[Por]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDeleteDesc" ControlType="11">
+        <Text><![CDATA[Verwijderde Bestanden Herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDeleteText1" ControlType="11">
+        <Text><![CDATA[Per ongeluk verwijderen]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDeleteText2" ControlType="11">
+        <Text><![CDATA["Shift+Del" verwijderen]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameDeleteText3" ControlType="11">
+        <Text><![CDATA[Stroomuitval]]></Text>
+      </Control>	  
+	  <Control ClassName="PartFrameRecycleDesc" ControlType="11">
+        <Text><![CDATA[Prullenbak Herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameRecycleText1" ControlType="11">
+        <Text><![CDATA[Geleegde Prullenbak]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameFormatedDesc" ControlType="11">
+        <Text><![CDATA[Geformatteerde Schijf Herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameFormatedText1" ControlType="11">
+        <Text><![CDATA[Geformatteerde harde schijf]]></Text>
+	  </Control>	  
+	  <Control ClassName="PartFramePartitionDesc" ControlType="11">
+        <Text><![CDATA[Verloren Partitie Herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePartitionText1" ControlType="11">
+        <Text><![CDATA[Verwijderde partitie]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePartitionText2" ControlType="11">
+        <Text><![CDATA[Verborgen partitie]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePartitionText3" ControlType="11">
+        <Text><![CDATA[Verloren partitie]]></Text>
+      </Control>
+	  <Control ClassName="PartFramePartitionText4" ControlType="11">
+        <Text><![CDATA[Veranderde partitie]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalDesc" ControlType="11">
+        <Text><![CDATA[Externe Apparaten herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalText1" ControlType="11">
+        <Text><![CDATA[Geheugenkaart herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalText2" ControlType="11">
+        <Text><![CDATA[USB flash drive herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalText3" ControlType="11">
+        <Text><![CDATA[Externe harde schijf herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameExternalText4" ControlType="11">
+        <Text><![CDATA[Andere verwijderbare apparaten herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameVirusDesc" ControlType="11">
+        <Text><![CDATA[Virusaanval data herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameVirusText1" ControlType="11">
+        <Text><![CDATA[Virusaanval data herste]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameCrashDesc" ControlType="11">
+        <Text><![CDATA[Systeemcrash Data Herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameCrashText1" ControlType="11">
+        <Text><![CDATA[Systeemcrash data herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameCrashText2" ControlType="11">
+        <Text><![CDATA[Bootfout data herstel]]></Text>
+      </Control>
+	   <Control ClassName="PartFrameGodDesc" ControlType="11">
+        <Text><![CDATA[Algemeen Herstel]]></Text>
+      </Control>
+	  <Control ClassName="PartFrameGodText1" ControlType="11">
+        <Text><![CDATA[Werkt voor alle verloren data scenario's]]></Text>
+      </Control>	  
+	  <Control ClassName="HintDialogDesc" ControlType="1">
+        <Text><![CDATA[Je kopie van de software is niet geregistreerd. Neem aan licentie.]]></Text>
+      </Control>
+	  <Control ClassName="HintDialogText1" ControlType="11">
+        <Text><![CDATA[Scan en bekijk data]]></Text>
+      </Control>
+	  <Control ClassName="HintDialogText2" ControlType="11">
+        <Text><![CDATA[Herstel gegevens]]></Text>
+      </Control>
+	  <Control ClassName="HintDialogText3" ControlType="11">
+        <Text><![CDATA[Herstel data van gecrasht systeem]]></Text>
+      </Control>
+	  <Control ClassName="HintDialogText4" ControlType="11">
+        <Text><![CDATA[Technische Hulp]]></Text>
+      </Control>	  
+	  <Control ClassName="m_strOther" ControlType="11">
+        <Text><![CDATA[Andere]]></Text>
+      </Control>
+	  <Control ClassName="m_strAllFileTypes" ControlType="11">
+        <Text><![CDATA[Alle Bestandtypes]]></Text>
+      </Control>
+	  <Control ClassName="m_strWebfiles" ControlType="11">
+        <Text><![CDATA[Webbestanden]]></Text>
+      </Control>
+	  <Control ClassName="FullDiskDesc" ControlType="1">
+        <Text><![CDATA[Selecteer a.u.b. een schijf]]></Text>
+      </Control>
+	  <Control ClassName="FullDiskTitle1" ControlType="1">
+        <Text><![CDATA[Harde Schijven Drives]]></Text>
+      </Control>
+	  <Control ClassName="FullDiskTitle2" ControlType="1">
+        <Text><![CDATA[Externe Apparaten]]></Text>
+      </Control>
+	  <Control ClassName="FullDiskRefresh" ControlType="11">
+        <Text><![CDATA[Refresh]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanLostDiskDesc" ControlType="1">
+        <Text><![CDATA[Selecteer a.u.b. een partitie]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskAnalye" ControlType="1">
+        <Text><![CDATA[Scannen van partitie...]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskCommon" ControlType="1">
+        <Text><![CDATA[Aanbevolen]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanLostDiskDeep" ControlType="1">
+        <Text><![CDATA[<font color=#26324B>Kun je je partitie niet vinden? </font> <b><a href="#"><font color=#00AEE6> Probeer opnieuw.</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskBack" ControlType="1">
+        <Text><![CDATA[<b><a href="#"><font color=#00AEE6>Vorig scan log</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskStopDesc" ControlType="11">
+        <Text><![CDATA[Weet je zeker dat met scannen wilt stoppen?]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskOtherPartiton" ControlType="1">
+        <Text><![CDATA[Andere Partities]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartDesc" ControlType="1">
+        <Text><![CDATA[Verbind a.u.b. een extern apparaat met de computer]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText1" ControlType="1">
+        <Text><![CDATA[USB Flash Drive]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText2" ControlType="1">
+        <Text><![CDATA[Digitale Camera]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText3" ControlType="1">
+        <Text><![CDATA[Camcorder]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText4" ControlType="1">
+        <Text><![CDATA[Geheugenkaart]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText5" ControlType="1">
+        <Text><![CDATA[iPod/MP3/MP4 Speler]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText6" ControlType="1">
+        <Text><![CDATA[SD kaart]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText7" ControlType="1">
+        <Text><![CDATA[CF/XD/MMC Kaar]]></Text>
+      </Control>
+	  <Control ClassName="ExternDiskStartText8" ControlType="1">
+        <Text><![CDATA[Meer Apparaten]]></Text>
+      </Control>	  
+	  <Control ClassName="ExternDiskRefreshFrameDesc" ControlType="1">
+        <Text><![CDATA[Geen externe opslagapparaat gedetecteerd, verbind opnieuw en ververs.]]></Text>
+      </Control>
+	  <Control ClassName="VirusesFrameDesc" ControlType="1">
+        <Text><![CDATA[Herstel verloren bestanden veroorzaakt door een virusaanval of infectie]]></Text>
+      </Control>
+	  <Control ClassName="ScanFramePauseTooltip" ControlType="11">
+        <Text><![CDATA[Pauze]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameStopTooltip" ControlType="11">
+        <Text><![CDATA[Stop]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanFrameFileSizeDesc" ControlType="11">
+        <Text><![CDATA[%1 items, %2]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameSelectFileSizeDesc" ControlType="11">
+        <Text><![CDATA[%1 van %2 items, %3]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateDesc" ControlType="1">
+        <Text><![CDATA[Aangepaste bestand data]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText1" ControlType="9">
+        <Text><![CDATA[Alle data]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText2" ControlType="9">
+        <Text><![CDATA[Vandaag]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText3" ControlType="9">
+        <Text><![CDATA[De huidige week]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText4" ControlType="9">
+        <Text><![CDATA[De huidige maand]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameDateText5" ControlType="9">
+        <Text><![CDATA[Aangepast]]></Text>
+      </Control>
+	  <Control ClassName="FilterDialogDesc" ControlType="11">
+        <Text><![CDATA[Ongeldige input: De eindtijd is vroeger dan de starttijd. Selecteer en probeer opnieuw.]]></Text>
+      </Control>	
+      <Control ClassName="ScanFrameButtonHome" ControlType="13">
+        <Text><![CDATA[Vorig scan log]]></Text>
+      </Control>
+	  <Control ClassName="AllAround" ControlType ="11" >
+        <Text><![CDATA[<font color=#26324B>Kun je de verloren bestanden niet vinden? Probeer </font> <b><a href="#"><font color=#00AEE6>Algemeen Herstel</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="AllArounddisabled" ControlType ="11" >
+        <Text><![CDATA[<font color=#CDCDCD>Kun je de verloren bestanden niet vinden? Probeer </font> <b><a href="#"><font color=#B2DFF8>Algemeen Herstel</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="AllAroundHint" ControlType ="11" >
+        <Text><![CDATA[Algemeen Herstel Mode duurt langer omdat het bestanden dieper zoekt]]></Text>
+      </Control>
+	  <Control ClassName="RAWDeep" ControlType ="11" >
+        <Text><![CDATA[<font color=#26324B>Kun je de verloren bestanden nog niet vinden? Probeer </font> <b><a href="#"><font color=#00AEE6>Diepe Scan</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="RAWDeepdisabled" ControlType ="11" >
+        <Text><![CDATA[<font color=#CDCDCD>Kun je de verloren bestanden nog niet vinden? Probeer </font> <b><a href="#"><font color=#B2DFF8>Diepe Scan</font></a></b>]]></Text>
+      </Control>
+	  <Control ClassName="RAWDeepHint" ControlType ="11" >
+        <Text><![CDATA[Diepe Scan Mode kan meer bestanden vinden. Het duurt echter wel langer .]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanCompleteed" ControlType ="11" >
+        <Text><![CDATA[Scan compleet!]]></Text>
+      </Control>
+	  <Control ClassName="AllRoundScanCompleteed" ControlType = "11" >
+        <Text><![CDATA[Kun je je verloren bestanden niet vinden? Selecteer a.u.b. de Algemeen Herstel Mode en probeer opnieuw.]]></Text>
+      </Control>
+	  <Control ClassName="RawScanCompleteed" ControlType ="11" >
+        <Text><![CDATA[Kun je je verloren bestanden niet vinden? Selecteer a.u.b. de Diepe Scan Mode en probeer opnieuw.]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameThumbnailTooltip" ControlType="11">
+        <Text><![CDATA[Miniatuur View]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameTableTooltip" ControlType="11">
+        <Text><![CDATA[Bekijk lijst]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameExit" ControlType="11">
+        <Text><![CDATA[TheHet scanresultaat zal niet opgeslagen worden als je het programma stopt. Weet je zeker dat je het programma wilt sluiten?]]></Text>
+      </Control>
+	  <Control ClassName="ScanFrameHomeBack" ControlType="11">
+        <Text><![CDATA[Het scanresultaat zal niet opgeslagen worden als je nu stopt. Weet je zeker dat je wilt stoppen?]]></Text>
+      </Control>
+	  <Control ClassName="SearchFrameDesc" ControlType="11">
+        <Text><![CDATA[Geen overeenkomende items gevonden.]]></Text>
+      </Control>	  
+	  <Control ClassName="ScanFrameRecoverHint" ControlType="11">
+        <Text><![CDATA[Selecteer a.u.b. een bestand om te herstellen.]]></Text>
+      </Control>
+	  <Control ClassName="ScanLostDiskStopDescHome" ControlType="11">
+        <Text><![CDATA[Weet je zeker dat je wilt stoppen en teruggaan naar de startpagina?]]></Text>
+      </Control>
+	</Dialog> 
+      <Dialog ClassName="CPrivewDocument">
+      <Control ClassName="FileName" ControlType="11">
+        <Text><![CDATA[Bestandnaam]]></Text>
+      </Control>
+      <Control ClassName="CreateTime" ControlType="11">
+        <Text><![CDATA[Aanmaaktijd]]></Text>
+      </Control>
+      <Control ClassName="WriteTime" ControlType="11">
+        <Text><![CDATA[Laatste Aanmaaktijd]]></Text>
+      </Control>
+      <Control ClassName="AccessTime" ControlType="11">
+        <Text><![CDATA[Laatste Toegangstijd]]></Text>
+      </Control>
+      <Control ClassName="Size" ControlType="11">
+        <Text><![CDATA[Grootte]]></Text>
+      </Control>
+      <Control ClassName="Dir" ControlType="11">
+        <Text><![CDATA[Directory]]></Text>
+      </Control>
+      <Control ClassName="strLoad" ControlType="11">
+        <Text><![CDATA[Laden, wacht a.u.b...]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CAboutDialog">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Sluit"/>
+      </Control>
+      <Control ClassName="m_lblTitle" ControlType="2">
+        <Text><![CDATA[Over]]></Text>
+      </Control>
+      <Control ClassName="lblPhotoName" ControlType="1">
+        <Text><![CDATA[Wondershare Data Recovery]]></Text>
+        <StatusTip StatusTipStr="foto herstel"></StatusTip>
+        <Font Bold = "1" PointSize = "8" R = "99" G = "106" B = "124"></Font>
+        <Margins Left="40" Top="140" Width="200" Height="16"></Margins>
+      </Control>
+      <Control ClassName="lblVersion" ControlType="11">
+        <Text><![CDATA[Versie: ]]></Text>
+        <Font Bold = "1" PointSize = "8" R = "99" G = "106" B = "124"/>
+        <Margins Left="240" Top="140" Width="100" Height="16"/>
+      </Control>
+      <Control ClassName="lblSupport" ControlType="1">
+        <Text><![CDATA[Ondersteuning Centrum:]]></Text>
+        <Font Bold = "1" PointSize = "8" R = "99" G = "106" B = "124"/>
+        <Margins Left="40" Top="180" Width="300" Height="16"/>
+      </Control>
+      <Control ClassName="lblHomepage" ControlType="1">
+        <Text><![CDATA[Startpagina:]]></Text>
+        <Font Bold = "1" PointSize = "8" R = "99" G = "106" B = "124"/>
+        <Margins Left="40" Top="215" Width="300" Height="16"/>
+      </Control>
+      <Control ClassName="lblSuppotNet" ControlType="2">
+        <Font Bold = "1" PointSize = "8" R = "99" G = "106" B = "124"/>
+        <Margins Left="150" Top="180" Width="380" Height="16"/>
+      </Control>
+      <Control ClassName="lblHomepageNet" ControlType="2">
+        <Font Bold = "1" PointSize = "8" R = "99" G = "106" B = "124"/>
+        <Margins Left="150" Top="215" Width="380" Height="16"/>
+      </Control>
+      <Control ClassName="lblCopyRight" ControlType="1">
+        <Text><![CDATA[Copyright © 2017 Wondershare. Alle rechten voorbehouden.]]></Text>
+        <Font Bold = "0" PointSize = "8" R = "99" G = "106" B = "124"/>
+        <Margins Left="35" Top="270" Width="400" Height="16"/>
+      </Control>
+      <Control ClassName="m_scrollMessageHead" ControlType="11">
+        <Text><![CDATA[Wondershare Recoverit]]></Text>
+      </Control>
+	  <Control ClassName="m_scrollMessageHead1" ControlType="11">>
+	    <Text>
+	    <![CDATA[Version: 6.0.0
+		
+Wondershare Technology Corp. is een hi-tech bedrijf 
+dat zich bezighoudt met het produceren van
+industrieleidende software applicaties aan klanten
+wereldwijd.Gedreven door de visie: “Prachtige 
+Software, Prachtig Leven”, is Wondershare toegewijd 
+aan het verstrekken van een varieteit aan leidende 
+software producten en diensten voor windows, 
+macintosh, iOS, android en andere besturingssytemen 
+aan klanten wereldwijd.Voor meer informatie over 
+Wondershare en Wondershare Producten, bezoek a.u.b.:]]>
+      </Text>  
+	  </Control>
+      <Control ClassName="m_scrollMessageCenter" ControlType="11">
+        <Text><![CDATA[Wondershare Startpagina]]></Text>
+      </Control>
+      <Control ClassName="m_scrollMessageTail" ControlType="11">
+        <Text>
+<![CDATA[Copyright © 2019 Wondershare. Alle rechten voorbehouden.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="cmenuOption">
+      <Control ClassName="m_lblTitle" ControlType ="1">
+        <Text> <![CDATA[Instellingen]]></Text>
+      </Control>
+      <Control ClassName="Interface" ControlType ="1">
+        <Text><![CDATA[Menu]]></Text>
+        <Margins Left="60" Top="55" Width="70" Height="22"/>
+      </Control>
+      <Control ClassName="m_scanSeprator"  ControlType ="12">
+        <Margins Left="200" Top="130" Width="421" Height="3"></Margins>
+      </Control>
+      <Control ClassName="m_lanugageSeprator"  ControlType ="12">
+        <Margins Left="100" Top="65" Width="521" Height="3"></Margins>
+      </Control>
+      <Control ClassName="Language" ControlType ="1">
+        <Text><![CDATA[Taal]]></Text>
+        <Margins Left="60" Top="104" Width="70" Height="30"/>
+      </Control>
+      <Control ClassName="languageCombox" ControlType ="4">
+      <Contents StringItems ="English(English),Japanese(日本語),French(Français),German(Deutsch),Chinese Traditional(中国香港),Chinese Traditional(中国台湾),Portuguese(Portuguese),Italiano(Italiano),Spanish(Español),Netherland(Nederlands),Arab( العربية )"/>
+       <FixSize FixHeight ="30" FixWidth ="170"/>
+        <Margins Left="136" Top="104" Width="155" Height="30" />
+      </Control>
+      <Control ClassName="scanTitle" ControlType ="1">
+        <Text><![CDATA[Herstel Instellingen]]></Text>
+        <Margins Left="60" Top="117" Width="125" Height="22" />
+      </Control>
+      <Control ClassName="openFolderCheckBox" ControlType ="5">
+        <Text><![CDATA[Open automatisch de doelmap na herstel.]]></Text>
+        <Contents State ="1"/>
+         <FixSize FixHeight ="22"/>
+        <Margins Left="60" Top="150" Width="450" Height="22"/>
+      </Control>
+      <Control ClassName="okButton" ControlType="13">
+        <Text><![CDATA[OK]]></Text>
+      <Margins Left="335" Top="198" Width="100" Height="32" />
+      </Control>
+      <Control ClassName="cancelButton" ControlType="13">
+        <Text><![CDATA[Annuleer]]></Text>
+       <Margins Left="195" Top="198" Width="100" Height="32" />
+      </Control>
+	  <Control ClassName="okButton1" ControlType="13">
+        <Text><![CDATA[OK]]></Text>
+      </Control>
+      <Control ClassName="cancelButton1" ControlType="13">
+        <Text><![CDATA[Annuleer]]></Text>
+      </Control>
+      <Control ClassName="closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Sluit"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType ="WizardFirstPage">
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Just answer 2 simple questions and we do the rest for you to recover lost files.]]></Text>
+        <Margins Left="180" Top="120" Width ="425" Height="60"/>
+      </Control>
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[If you don’t want to use this wizard, you can switch to <a href =1><font color="#217EC4">Standard Mode</font></a>.]]></Text>
+        <Margins Left="20" Top="320" Width="430" Height="40"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType ="WizardSecondPage">
+      <Control ClassName="m_LabPhotoTitle" ControlType="1">
+        <Text><![CDATA[Foto]]></Text>
+
+      </Control>
+      <Control ClassName="m_LabPhoto" ControlType="1">
+        <Text><![CDATA[Algemene beeldbestanden, zoals digitale camerafoto's.]]></Text>
+      </Control>
+	  <Control ClassName="m_LabAllTitle" ControlType="1">
+        <Text><![CDATA[ All]]></Text>
+        <Font Bold = "1" PointSize = "8" R = "99" G = "106" B = "124"/>
+        <Margins Left="81" Top="310" Width ="120" Height="15"/>
+      </Control>
+      <Control ClassName="m_LabAll" ControlType="1">
+        <Text><![CDATA[Alle Bestand Types]]></Text>
+        <Margins Left="83" Top="323" Width="400" Height="15"/>
+      </Control>
+      <Control ClassName="m_LabMusicTitle" ControlType="1">
+        <Text><![CDATA[Audio]]></Text>
+      </Control>
+      <Control ClassName="m_LabMusic" ControlType="1">
+        <Text><![CDATA[Algemene audiobestanden, zoals MP3, WMA, etc.]]></Text>
+      </Control>
+      <Control ClassName="m_LabVideoTitle" ControlType="1">
+        <Text><![CDATA[ Video]]></Text>
+      </Control>
+      <Control ClassName="m_LabVideo" ControlType="1">
+        <Text><![CDATA[Algemene videobestanden, zoals digitale camera opnamen.]]></Text>
+      </Control>
+      <Control ClassName="m_LabDocumentTitle" ControlType="1">
+        <Text><![CDATA[ Document]]></Text>
+      </Control>
+      <Control ClassName="m_LabDocument" ControlType="1">
+        <Text><![CDATA[Algemene documentbestanden, zoals Word, Excel, PDF files, etc.]]></Text>
+      </Control>
+      <Control ClassName="m_LabEmailTitle" ControlType="1">
+        <Text><![CDATA[ E-mail]]></Text>
+      </Control>
+      <Control ClassName="m_LabEmail" ControlType="1">
+        <Text><![CDATA[Algemene e-mails van Outlook of Outlook Express, zoals pst, dbx, etc.]]></Text>
+      </Control>
+      <Control ClassName="m_LabAllFileTitle" ControlType="1">
+        <Text><![CDATA[Alle Bestandtypes]]></Text>
+      </Control>
+      <Control ClassName="m_LabAllFile" ControlType="1">
+        <Text><![CDATA[Scan all the above and other files.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType ="WizardThirdPage">
+	  <Control ClassName="m_Commontitle" ControlType="1">
+        <Text><![CDATA[Algemene Locatie]]></Text>
+      </Control>
+	  <Control ClassName="m_Hardtitle" ControlType="1">
+        <Text><![CDATA[Harde Schijf]]></Text>
+      </Control>
+	  <Control ClassName="m_Extertitle" ControlType="1">
+        <Text><![CDATA[Extern verwijderbaar apparaat]]></Text>
+      </Control>
+      <Control ClassName="m_LabPhotoTitle" ControlType="1">
+        <Text><![CDATA[Bureaublad]]></Text>
+
+      </Control>
+      <Control ClassName="m_LabPhoto" ControlType="1">
+        <Text><![CDATA[Hele computer]]></Text>
+      </Control>
+      <Control ClassName="m_LabMusicTitle" ControlType="1">
+        <Text><![CDATA[Select location]]></Text>
+      </Control>
+      <Control ClassName="m_LabMusic" ControlType="1">
+        <Text><![CDATA[Scan removable device such as iPod, digital camera, USB drive, etc.]]></Text>
+      </Control>
+      <Control ClassName="m_LabVideoTitle" ControlType="1">
+        <Text><![CDATA[Prullenbak]]></Text>
+      </Control>
+      <Control ClassName="m_LabVideo" ControlType="1">
+        <Text><![CDATA[Scan deleted files from Recycle Bin.]]></Text>
+      </Control>
+      <Control ClassName="m_LabDocumentTitle" ControlType="1">
+        <Text><![CDATA[Hele computer]]></Text>
+      </Control>
+      <Control ClassName="m_LabDocument" ControlType="1">
+        <Text><![CDATA[Scan deleted files from Desktop, My Documents, or Libraries.]]></Text>
+      </Control>
+      <Control ClassName="m_LabEmailTitle" ControlType="1">
+        <Text><![CDATA[Mijn documenten]]></Text>
+      </Control>
+      <Control ClassName="m_BtnBrowse" ControlType="13">
+        <Text><![CDATA[Browse...]]></Text>
+        <Margins Left="505" Top="40" Width="84" Height="27"/>
+      </Control>
+      <Control ClassName="m_LabAllFileTitle" ControlType="1">
+        <Text><![CDATA[ Ik kan mijn partitie niet vinden]]></Text>
+      </Control>
+      <Control ClassName="m_LabAllFile" ControlType="1">
+        <Text><![CDATA[Search lost partitions from your disk.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType ="WizardForthPage">
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[Click Start to begin.]]></Text>
+        <Margins Left="30" Top="250" Width="400" Height="20"/>
+      </Control>
+      <Control ClassName="m_CheckAdvance" ControlType="5">
+        <Text><![CDATA[Enable Raw File Recovery.]]></Text>
+        <Margins Left="20" Top="145" Width ="500" Height="20"/>
+      </Control>
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Recover and classify your files according to file types without file original name, but it will take more time. This function works well for photo recovery.]]></Text>
+        <Margins Left="38" Top="165" Width="410" Height="60"/>
+      </Control>
+      <Control ClassName="m_CheckFormat" ControlType="5">
+        <Text><![CDATA[Enable Deep Scan. ]]></Text>
+        <Margins Left="20" Top="60" Width ="400" Height="20"/>
+      </Control>
+      <Control ClassName="m_LabFormat" ControlType="1">
+        <Text><![CDATA[Recover formatted files with complete folder structure, but it will take you more time. This function works well for formatted recovery.]]></Text>
+        <Margins Left="38" Top="83" Width="400" Height="60"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType ="StandardHomePage">
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[To get started, please choose a Recovery Module below, or go to <a href =2><font color="#217EC4">Wizard</font></a>.]]></Text>
+        <Margins Left="150" Top="7" Width ="480" Height="40"/>
+      </Control>
+      <Control ClassName="m_LabSelLostFileR" ControlType="8">
+        <Text><![CDATA[Lost File Recovery]]></Text>
+        <Margins Left="120" Top="80" Width="200" Height="40"/>
+      </Control>
+      <Control ClassName="m_LabLostFile" ControlType="1">
+        <Text><![CDATA[Recover deleted and formatted files from a partition or removable media, such as files deleted by Shift + Delete or emptied from Recycle Bin.]]></Text>
+        <Margins Left="120" Top="115" Width="230" Height="120"/>
+      </Control>
+
+      <Control ClassName="m_LabSelLostPartR" ControlType="8">
+        <Text><![CDATA[Partition Recovery]]></Text>
+        <Margins Left="488" Top="80" Width="200" Height="40"/>
+      </Control>
+      <Control ClassName="m_LabLostPart" ControlType="1">
+        <Text><![CDATA[Find out lost, deleted, resized or dama-ged partition, and then recover lost files and folders.]]></Text>
+        <Margins Left="488" Top="115" Width="230" Height="120"/>
+      </Control>
+
+      <Control ClassName="m_LabSelRawFileR" ControlType="8">
+        <Text><![CDATA[Raw File Recovery]]></Text>
+        <Margins Left="120" Top="235" Width="200" Height="40"/>
+      </Control>
+      <Control ClassName="m_LabRaw" ControlType="1">
+        <Text><![CDATA[If previous scans cannot find your lost files, please select Raw File Recovery. But it will not display the file name and path.]]></Text>
+        <Margins Left="120" Top="270" Width="230" Height="120"/>
+      </Control>
+
+      <Control ClassName="m_LabSelResumeR" ControlType="8">
+        <Text><![CDATA[Resume Recovery]]></Text>
+        <Margins Left="487" Top="235" Width="200" Height="40"/>
+      </Control>
+      <Control ClassName="m_LabResume" ControlType="1">
+        <Text><![CDATA[Import saved scan results to resume a previous recovery session.]]></Text>
+
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType ="StandardLostFilePage">
+      <Control ClassName="m_CheckFormat" ControlType="5">
+        <Text><![CDATA[Enable Deep Scan]]></Text>
+      </Control>
+      <Control ClassName="m_LabFormat" ControlType="1">
+        <Text><![CDATA[Recover formatted files with complete folder structure, but it will take you more time. This function works well for formatted recovery.]]></Text>
+        <Margins Left="24" Top="290" Width="700" Height="40"/>
+      </Control>
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[Previous file system: ]]></Text>
+        <Margins Left="24" Top="325" Width="160" Height="22"/>
+      </Control>
+      <Control ClassName="m_ComBoxFileSys" ControlType ="4">
+        <Contents StringItems ="Auto(Recommanded),NTFS,FAT32,FAT16,exFAT"/>
+        <Margins Left="124" Top="325" Width="160" Height="22"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType ="StandardPartitionPage">
+      <Control ClassName="m_lblText" ControlType="11">
+        <Text><![CDATA[Het scanproces kan op dit moment niet hervat worden. Weet je zeker dat je wilt stoppen met scannen]]></Text>
+      </Control>
+      <Control ClassName="m_CheckAdvance" ControlType="5">
+        <Text><![CDATA[Enable Raw File Recovery]]></Text>
+        <Margins Left="22" Top="275" Width ="500" Height="20"/>
+      </Control>
+      <Control ClassName="m_LabFormat" ControlType="1">
+        <Text><![CDATA[Recover and classify your files according to file types without file original name, but it will take you more time. This function works well for photo recovery.]]></Text>
+      </Control>
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[SelectEER een locatie voor herstel.]]></Text>
+        <Margins Left="100" Top="300" Width="350" Height="20"/>
+      </Control>
+      <Control ClassName="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[Scanning file system:]]></Text>
+        <Margins Left="22" Top="325" Width="150" Height="22"/>
+      </Control>
+      <Control ClassName="m_ComBoxFileSys" ControlType ="4">
+        <Contents StringItems ="Auto(Recommended),NTFS,FAT32,FAT16,exFAT"/>
+        <Margins Left="130" Top="326" Width="160" Height="22"/>
+      </Control>
+      <Control ClassName="m_BtnLostParStop" ControlType="13">
+        <Text><![CDATA[Stop]]></Text>
+
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CCustomFrame" PageType="StandardRawPage">
+      <Control ClassName ="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Quick scan for deleted files.]]></Text>
+      </Control>
+      <Control ClassName="m_LabFormat" ControlType="1">
+        <Text><![CDATA[It can find more files, but will take you more time.]]></Text>
+      </Control>
+      <Control ClassName ="m_LabSelectMes" ControlType="1">
+        <Text><![CDATA[Scan Options: ]]></Text>
+      </Control>
+      <Control ClassName="m_RadioBtnAllFilesRaw" ControlType="9">
+        <Text><![CDATA[For All Files: ]]></Text>
+      </Control>
+      <Control ClassName="m_RadioBtnDelFilesRaw" ControlType="9">
+        <Text><![CDATA[For Deleted Files:]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CMenuOptions">
+	  <Control ClassName="m_Menu" ControlType="6">
+        <Size Width="180" />
+      </Control>
+      <Control ClassName="m_optionsAction" ControlType="1">
+        <Text><![CDATA[Opties]]></Text>
+      </Control>
+      <Control ClassName="m_helpAction" ControlType="1">
+        <Text><![CDATA[Online Help  ]]></Text>
+      </Control>
+      <Control ClassName="m_purchaseAction" ControlType="1">
+        <Text><![CDATA[Aankoop]]></Text>
+      </Control>
+      <Control ClassName="m_registerAction" ControlType="1">
+        <Text><![CDATA[Registreren]]></Text>
+      </Control>
+      <Control ClassName="m_suppotAction" ControlType="1">
+        <Text><![CDATA[Ondersteuning Centrum]]></Text>
+      </Control>
+      <Control ClassName="m_contactAction" ControlType="1">
+        <Text><![CDATA[Contact Klantenservice]]></Text>
+      </Control>
+      <Control ClassName="m_updateAction" ControlType="1">
+        <Text><![CDATA[Controleer voor Updates]]></Text>
+      </Control>
+      <Control ClassName="m_aboutAction" ControlType="1">
+        <Text><![CDATA[Over]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType ="WizardFirstPage">
+      <Control ClassName="m_pBtnMin" ControlType="13">
+        <StatusTip StatusTipStr ="Minimize"/>
+      </Control>
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Close"/>
+      </Control>
+      <Control ClassName="m_BtnMenu" ControlType="13">
+        <StatusTip StatusTipStr ="Menu"/>
+      </Control>
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Welcome to the Wondershare Data Recovery Wizard!]]></Text>
+      </Control>
+      <Control ClassName="m_CheckBoxWizard" ControlType="5">
+        <Text><![CDATA[Don't show this Wizard on startup]]></Text>
+      </Control>
+      <Control ClassName="m_BntNext" ControlType="13">
+        <Text><![CDATA[Volgende]]></Text>
+      </Control>
+      <!--错误提示语-->
+      <Control ClassName="m_strErrorMes" ControlType="11">
+        <Text><![CDATA[Laden mislukt door het onbeschikbare apparaat, bestandssysteem gewijzigd of gescande resultaten beschadigd.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType ="WizardSecondPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Wat voor soort bestanden wil je herstellen?]]></Text>
+      </Control>
+      <Control ClassName="m_LabNavigation1" ControlType="1">
+        <Text><![CDATA[Selecteer de locatie om te starten met het zoeken naar data]]></Text>
+      </Control>
+      <Control ClassName="m_BntBack" ControlType="13">
+        <Text><![CDATA[Terug]]></Text>
+      </Control>
+      <Control ClassName="m_BntNext" ControlType="13">
+        <Text><![CDATA[Volgende]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType ="WizardThirdPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecteer een partitie om bestanden te scannen:]]></Text>
+      </Control>
+      <Control ClassName="m_BntBack" ControlType="13">
+        <Text><![CDATA[Terug]]></Text>
+      </Control>
+      <Control ClassName="m_BntNext" ControlType="13">
+        <Text><![CDATA[Volgende]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType ="WizardForthPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecteer een partitie om bestanden te scannen:]]></Text>
+      </Control>
+      <Control ClassName="m_BntBack" ControlType="13">
+        <Text><![CDATA[Terug]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13" LabState="Normal">
+        <Text><![CDATA[Start]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13" LabState="LostPartion">
+        <Text><![CDATA[Next]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType ="StandardHomePage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType ="StandardLostFilePage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecteer een partitie om bestanden te scannen:]]></Text>
+      </Control>
+      <Control ClassName="m_BntHome" ControlType="13">
+        <Text><![CDATA[terug]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13">
+        <Text><![CDATA[Start]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType ="StandardLostPartPage">
+      <Control ClassName="m_LabNavigation" ControlType="11">
+        <Text><![CDATA[Selecteer een partitie om bestanden te scannen:]]></Text>
+      </Control>
+      <Control ClassName="m_BntHome" ControlType="13">
+        <Text><![CDATA[Home]]></Text>
+      </Control>
+      <Control ClassName="m_BntNext" ControlType="13">
+        <Text><![CDATA[Volgende]]></Text>
+      </Control>
+      <Control ClassName="m_CheckFastScan" ControlType="5">
+        <Text><![CDATA[Enable Quick Scan]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType ="StandardPartitionPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecteer een partitie om bestanden te scannen:]]></Text>
+      </Control>
+      <Control ClassName="m_BntHome" ControlType="13">
+        <Text><![CDATA[Home]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13">
+        <Text><![CDATA[Start]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="WizardDialog" PageType="StandardRawPage">
+      <Control ClassName="m_LabNavigation" ControlType="1">
+        <Text><![CDATA[Selecteer een partitie om bestanden te scannen:]]></Text>
+      </Control>
+      <Control ClassName="m_BntHome" ControlType="13">
+        <Text><![CDATA[Home]]></Text>
+      </Control>
+      <Control ClassName="m_BntStart" ControlType="13">
+        <Text><![CDATA[Start]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CphysicDiskListModel">
+      <Control ClassName="m_Partition" ControlType ="10">
+        <Text><![CDATA[Fysieke Schijven]]></Text>
+        <Font Bold = "1" PointSize = "8" R = "75" G = "82" B = "100"/>
+      </Control>
+      <Control ClassName="m_Size" ControlType ="10">
+        <Text><![CDATA[Grootte]]></Text>
+        <Font Bold = "1" PointSize = "8" R = "75" G = "82" B = "100"/>
+      </Control>
+      <Control ClassName="m_DriveNo" ControlType ="10">
+        <Text><![CDATA[Disk Nr.]]></Text>
+        <Font Bold = "1" PointSize = "8" R = "75" G = "82" B = "100"/>
+      </Control>
+      <Control ClassName="m_strPrevioueScan" ControlType ="11">
+        <Text><![CDATA[Bekijken Vorig Herstel.... ]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CpartitionListModel">
+      <Control ClassName="m_partition" ControlType="10">
+        <Text><![CDATA[Logische Schijvem]]></Text>
+      </Control>
+      <Control ClassName="m_size" ControlType="10">
+        <Text><![CDATA[Grootte]]></Text>
+      </Control>
+      <Control ClassName="m_type" ControlType="10">
+        <Text><![CDATA[Bestand Systeem]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CTableModelData">
+      <Control ClassName="Head0" ControlType="11">
+        <Text><![CDATA[       Naam]]></Text>
+      </Control>
+      <Control ClassName="Head1" ControlType="11">
+        <Text><![CDATA[Grootte]]></Text>
+      </Control>
+      <Control ClassName="Head2" ControlType="11">
+        <Text><![CDATA[Pad]]></Text>
+      </Control>
+      <Control ClassName="Head3" ControlType="11">
+        <Text><![CDATA[Aanmaakdatum]]></Text>
+      </Control>
+      <Control ClassName="Head4" ControlType="11">
+        <Text><![CDATA[Gewzijgde Datum]]></Text>
+      </Control>
+      <Control ClassName="Head5" ControlType="11">
+        <Text><![CDATA[Status]]></Text>
+      </Control>
+      <Control ClassName="m_strGood" ControlType="11">
+        <Text><![CDATA[Goed]]></Text>
+      </Control>
+      <Control ClassName="m_strBad" ControlType="11">
+        <Text><![CDATA[Slecht]]></Text>
+      </Control>
+      <Control ClassName="m_strPoor" ControlType="11">
+        <Text><![CDATA[Zwak]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CLostPartitionListModel">
+      <Control ClassName="m_Partition" ControlType ="11">
+        <Text><![CDATA[Volume]]></Text>
+        <Font Bold = "1" PointSize = "8.5" R = "75" G = "82" B = "100"/>
+      </Control>
+      <Control ClassName="m_Filesystem" ControlType ="11">
+        <Text><![CDATA[Bestand Systeem]]></Text>
+        <Font Bold = "1" PointSize = "8.5" R = "75" G = "82" B = "100"/>
+      </Control>
+      <Control ClassName="m_StartSector" ControlType ="11">
+        <Text><![CDATA[Start Sector]]></Text>
+        <Font Bold = "1" PointSize = "8.5" R = "75" G = "82" B = "100"/>
+      </Control>
+      <Control ClassName="m_EndSector" ControlType ="11">
+        <Text><![CDATA[Eind Sector]]></Text>
+        <Font Bold = "1" PointSize = "8.5" R = "75" G = "82" B = "100"/>
+      </Control>
+      <Control ClassName="m_Size" ControlType ="11">
+        <Text><![CDATA[Grootte]]></Text>
+        <Font Bold = "1" PointSize = "8.5" R = "75" G = "82" B = "100"/>
+      </Control>
+      <Control ClassName="m_Valid" ControlType ="11">
+        <Text><![CDATA[Geldigheid]]></Text>
+        <Font Bold = "1" PointSize = "8.5" R = "75" G = "82" B = "100"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CRegisterDialog" PageType ="Register">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Sluit"/>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState ="RegisterSuccss">
+        <Text><![CDATA[Wondershare Recoverit is geregistreerd!]]></Text>
+      </Control>
+      <Control ClassName="m_lblEmail" ControlType="1">
+        <Text><![CDATA[Licentie E-mail:]]></Text>
+        <Font Bold = "1" PointSize = "9"/>
+      </Control>
+      <Control ClassName="m_lblCode" ControlType="1">
+        <Text><![CDATA[Registratie Code:]]></Text>
+        <Font Bold = "1" PointSize = "9"/>
+      </Control>
+      <!--<Control ClassName="m_lblNote" ControlType="1">
+        <Text><![CDATA[Opmerking:]]></Text>
+        <Font Bold = "0" PointSize = "9"/>
+        <Margins Left="37" Top="290" Width ="30" Height="16"/>
+      </Control>-->
+      <Control ClassName="m_closeDlgButton" ControlType="13">
+        <Text><![CDATA[Sluit]]></Text>
+      </Control>
+      <Control ClassName="m_lblLetterTop" ControlType="1">
+        <Text><![CDATA[<b>Opmerking:</b> Als je problemen hebt met de registratiecode en de software, bezoek: <Font color="#217EC4"><a href="0">Support</a></Font>.]]></Text>
+        <Font Bold = "0" PointSize = "9"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CRegisterDialog" PageType ="UnRegister">
+      <Control ClassName="m_lblText" ControlType="11" LabState ="CodeNull">
+        <Text><![CDATA[Registratiecode kan niet leeg zijn. Probeer opnieuw.]]></Text>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState ="EmailError">
+        <Text><![CDATA[Ongeldige licentie e-mail. Probeer opnieuw.]]></Text>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState="RegisterFile">
+        <Text><![CDATA[Ongeldige licentie e-mail of registratiecode! Zowel de licentie e-mail als de registratiecode zijn hoofdletter gevoelig,
