@@ -12,6 +12,10 @@ The chauffeur allows drivers to register and get hired by customers needing thei
   #### Back-End ####
       Markup : * PHP
       
+   Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
 
 
 ![home_page_image](https://github.com/ADeogratias/the_chauffeur/blob/master/img/the%20chauffeurimg1.png)
