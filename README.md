@@ -8,12 +8,12 @@ The chauffeur allows drivers to register and get hired by customers needing thei
 
 
   #### Front-End ####
-      Markup : * HTML, Javascript and CSS
+      * HTML, Javascript and CSS
       
   #### Back-End ####
-      Markup : * PHP
+      * PHP
       
-   Markup : - Bullet list
+   - Bullet list
               - Nested bullet
                   - Sub-nested bullet etc
           - Bullet list item 2 
