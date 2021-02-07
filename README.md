@@ -9,11 +9,11 @@ The chauffeur allows drivers to register and get hired by customers needing thei
 
   #### Front-End ####
   
-    * HTML, Javascript and CSS
+  * HTML, Javascript and CSS
       
   #### Back-End ####
   
-      * PHP
+  * PHP
       
    - Bullet list
               - Nested bullet
