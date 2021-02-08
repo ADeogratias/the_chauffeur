@@ -9,16 +9,16 @@ The chauffeur allows drivers to register and get hired by customers needing thei
 
   #### Front-End ####
   
-    * HTML, Javascript and CSS
+  * HTML, Javascript and CSS
       
   #### Back-End ####
   
-    * PHP
-      
-   - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+   * PHP, MySQL
+   
+ #### Requirement ####
+      - XAMPP
+      - Web Browser(Opera, Chrome)
+      - OS (Windows, Linux)
 
 
 ![home_page_image](https://github.com/ADeogratias/the_chauffeur/blob/master/img/the%20chauffeurimg1.png)
