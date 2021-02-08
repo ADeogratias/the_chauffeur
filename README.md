@@ -15,10 +15,10 @@ The chauffeur allows drivers to register and get hired by customers needing thei
   
    * PHP, MySQL
    
- #### Requirement ####
-      - XAMPP
-      - Web Browser(Opera, Chrome)
-      - OS (Windows, Linux)
+ ### Requirement ###
+     - XAMPP
+     - Web Browser(Opera, Chrome)
+     - OS (Windows, Linux)
 
 
 ![home_page_image](https://github.com/ADeogratias/the_chauffeur/blob/master/img/the%20chauffeurimg1.png)
